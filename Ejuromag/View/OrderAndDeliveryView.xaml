@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Ejuromag.View.OrderAndDeliveryView"
+             Title="Order/Delivery"
+             Shell.BackgroundColor="#228B22">
+
+    <ScrollView>
+        <Grid RowDefinitions="*,*" Margin="5">
+             <StackLayout Grid.Row="0" Margin="5,5">
+                <Label Text="Fizetési Módok:" FontSize="20" FontAttributes="Bold"/>
+                <Label Text="Utánvét:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="áru ellenértékét a csomag kézbesítésekor kell megfizetni a futárnál. Ezzel a fizetési móddal a shop teljes kínálatának ellenértéke fizethető. A futárnál az utánvét összegét csak készpénzzel lehet fizetni, bankkártyával nem." FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Banki előreutalás:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="szeretne előreutalással fizetni, ezen igényét kérjük a megrendelés megjegyzés rovatában jelezze. A megrendelés feldolgozása után módosítjuk a fizetési módot. Az összes megrendelt termék központi raktárra érkezését követően proforma számlát küld a rendszer, amin minden, az utaláshoz szükséges adatot megtalál. Az összeg jóváírását követően a rendszer automatikusan elindítja a csomagot. A csomag kézbesítése legkésőbb a jóváírást követő második munkanapon esedékes. Tájékoztatjuk tisztelt vásárlóinkat, hogy minden esetben a vásárolt árunak megfelelő pontos számlát is küldünk, ezt kérni külön nem kell." FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Bankkártyás fizetés:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="A CardPay fizetés révén biztonságosan vásárolhat áruházunkban. A kiválasztott termékek megrendelése után a Vevőt a Tatra Bank biztosított weboldalára irányítjuk, ahol a bank által használt, titkosítással lebonyolított tranzakción keresztül fizethet bankkártyájával. A rendszer magyarországi bankok által kiadott VISA és MasterCard típusú kártyákat fogad el." FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Fontos! A kizárólag elektronikus használatra kibocsátott bankkártyákat csak abban az esetében fogadhatjuk el, amennyiben annak használatát a kártyát kibocsátó bank engedélyezi! Kérjük, érdeklődjön bankjánál, hogy az Ön kártyája felhasználható-e interneten keresztül lebonyolítandó vásárláshoz." FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Abban az esetben, ha olyan terméket próbál bankkártyával kifizetni, mely a termék adatlapja szerint jelenleg nincs raktáron (központi vagy külső raktár), a bankkártyás fizetés nem lehetséges, mivel rendelés teljesítése elhúzódhat. Bankkártyás, online fizetéssel csak a 100 EUR összértékhatárt meg nem haladó megrendelések egyenlíthetők ki. Előrendeléseket nem lehet bankkártyával fizetni, mivel azon termékek ára és megjelenési dátuma a kiadó jogaiból fakadóan bármikor változhat, amiért cégünk felelősséget nem tud vállalni." FontAttributes="Italic" Margin="0,5"/>
+             </StackLayout>
+             <StackLayout Grid.Row="1" Margin="5,5">
+                <Label Text="Szállítási Módok" FontSize="20" FontAttributes="Bold"/>
+                <Label Text="Futár által való kézbesítés:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="A termékek kiszállítását logisztikai partnereink és munkatársaink a hét minden munkanapján végzik. A csomag kézbesítése általában a raktárunkról való kiszállítást követő munkanapon történik. A futárszolgálat és mi is emailben értesítjük a csomag érkezéséről a címzettet, rendszerint a kézbesítést megelőző munkanapon. A kézbesítés napján a futárszolgálat a kézbesítés előtt SMS - t küld, míg a futár telefonon is értesíti a címzettet a csomag érkezéséről.Az utánvétes csomag szállítás díja 1.590,- Ft / csomag CardPay online kártyás fizetés esetén a szállítás díja 1.190,- Ft / csomag" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Személyes átvétel csomagátvételi ponton:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="A Packeta egy profi csomagküldő hálózat, mely Magyarországon jelenleg több, mint 2350 átvételi ponttal rendelkezik (beleértve a több, mint 840 csomagautomatát), melyekre gyorsan és olcsón kiszállíttathatod a megrendelt árut. A szabványos csomag kiszállításának ára mindössze 690 Ft a Z-BOX csomagautomatákba, az átvételi pontokra pedig 990 Ft a Packeta segítségével." FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="A Magyar Posta általában a csomagnak a szállítmányozótól történő átvétele utáni 1-3 napon belül szállítja ki a megrendelést a kiválasztott postahivatalba, postapontra vagy csomagautomatához. Ár azonnali fizetés esetén: 990 Ft, Ár utánvétes fizetés esetén: 1.480 Ft" FontAttributes="Italic" Margin="0,5"/>
+             </StackLayout>
+        </Grid>
+    </ScrollView>
+        
+    
+</ContentPage>
