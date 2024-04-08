@@ -3,11 +3,19 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:tool="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              x:Class="Ejuromag.View.LoginView"
-             Shell.BackgroundColor="Green"
+             BackgroundImageSource="background.webp"
              Title="Login">
     <ContentPage.Behaviors>
         <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
     </ContentPage.Behaviors>
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Button">
+            <Setter Property="BackgroundColor" Value="#026691"/>
+        </Style>
+    </ContentPage.Resources>
     <VerticalStackLayout>
         <Grid Margin="10,140,10,20" RowDefinitions="2*,2*,*,*" ColumnDefinitions="2*,*" HorizontalOptions="Center">
             <StackLayout Grid.Row="0" Orientation="Horizontal">

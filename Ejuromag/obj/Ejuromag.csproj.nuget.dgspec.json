@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\Ejuromag.csproj": {}
+    "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj": {}
   },
   "projects": {
-    "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\Ejuromag.csproj": {
+    "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\Ejuromag.csproj",
+        "projectUniqueName": "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
         "projectName": "Ejuromag",
-        "projectPath": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\Ejuromag.csproj",
+        "projectPath": "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
         "packagesPath": "C:\\Users\\veress.martin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\obj\\",
+        "outputPath": "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [

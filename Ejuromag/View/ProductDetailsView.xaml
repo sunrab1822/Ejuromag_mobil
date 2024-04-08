@@ -2,7 +2,8 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.ProductDetailsView"
-             Title="ProductDetailsView">
+             Title="ProductDetailsView"
+             BackgroundImageSource="background.webp">
     <Grid RowDefinitions="*,*,*,*,*" ColumnDefinitions="*,*">
         <Image Grid.Column="0"/>
         <StackLayout Grid.Column="1" Grid.Row="0" Orientation="Horizontal">

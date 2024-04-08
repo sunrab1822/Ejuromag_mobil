@@ -3,9 +3,9 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.CartView"
              Title="CartView"
-             Shell.BackgroundColor="Green">
+             BackgroundImageSource="background.webp">
     <Grid RowDefinitions="0.25*,*,*">
-        <Label Text="Cart" Grid.Row="0" FontSize="Large" TextColor="Green" HorizontalOptions="Center" VerticalOptions="Center"/>
+        <Label Text="Cart" Grid.Row="0" FontSize="Large" TextColor="{StaticResource Primary}" HorizontalOptions="Center" VerticalOptions="Center"/>
         <StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="150">
             <Grid ColumnDefinitions="0.9*,*,1.2*" Margin="5">
                 <StackLayout Grid.Column="0">
@@ -17,9 +17,9 @@
                 <StackLayout Grid.Column="2">
                     <Label Text="100000 Ft" HorizontalOptions="Center"/>
                     <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                        <Button Text="-" WidthRequest="35" HeightRequest="40" CornerRadius="60" BackgroundColor="DarkOrange"/>
+                        <Button Text="-" WidthRequest="35" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White"/>
                         <Label Text="0" VerticalOptions="Center" HorizontalOptions="Center" Margin="5"/>
-                        <Button Text="+" WidthRequest="36" HeightRequest="40" CornerRadius="60" BackgroundColor="DarkOrange"/>
+                        <Button Text="+" WidthRequest="36" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White"/>
                     </StackLayout>
                 </StackLayout>
             </Grid>
@@ -34,8 +34,8 @@
                             <Setter Property="HorizontalOptions" Value="Center"/>
                         </Style>
                         <Style TargetType="Entry">
-                            <Setter Property="BackgroundColor" Value="Black"/>
                             <Setter Property="TextColor" Value="White"/>
+                            <Setter Property="BackgroundColor" Value="Black"/>
                         </Style>
                         <Style TargetType="StackLayout">
                             <Setter Property="VerticalOptions" Value="Center"/>
@@ -65,7 +65,7 @@
                                 <Label Text="Végösszeg: " WidthRequest="180"/>
                                 <Entry Text="asd" WidthRequest="100"/>
                             </StackLayout>
-                            <Button Grid.Row="1" Margin="0,5" Text="Folytatás" TextColor="White" BackgroundColor="Orange"/>
+                            <Button Grid.Row="1" Margin="0,5" Text="Folytatás" TextColor="Black" BackgroundColor="White"/>
                         </Grid>
                     </StackLayout>
                 </Grid>

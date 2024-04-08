@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fB6xlItZpkfe8DmTlrQoslq9ozmnPjAwQggS6mMkOIdwwh6w7h/Rsvz8Rra/rziWzIstKHGCW31M64hycETY7Q==",
+  "dgSpecHash": "0yCZ/dEz+fuTAXjDiWdoZKw3YjFU9kkn3rKEhe0PWQTmCGG5UV5FZYZRxm9Nf5RiIsqC0PZF6ODaqX9ROuX/Jw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\Ejuromag.csproj",
+  "projectFilePath": "C:\\Users\\veress.martin\\Desktop\\project\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\veress.martin\\.nuget\\packages\\communitytoolkit.maui\\6.1.0\\communitytoolkit.maui.6.1.0.nupkg.sha512",
     "C:\\Users\\veress.martin\\.nuget\\packages\\communitytoolkit.maui.core\\6.1.0\\communitytoolkit.maui.core.6.1.0.nupkg.sha512",

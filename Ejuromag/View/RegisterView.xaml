@@ -2,8 +2,16 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.RegisterView"
-             Shell.BackgroundColor="Green"
-             Title="Register">
+             Title="Register"
+             BackgroundImageSource="background.webp">
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+        <Style TargetType="Entry">
+            <Setter Property="BackgroundColor" Value="White"/>
+        </Style>
+    </ContentPage.Resources>
     <StackLayout Margin="10">
         <StackLayout Grid.Row="0" Orientation="Horizontal">
             <Label Text="Name: " Grid.Column="0"  WidthRequest="150"/>
@@ -29,6 +37,6 @@
                 <Entry Grid.Column="1" WidthRequest="130" Text="{Binding Password2}"/>
             </Border>
         </StackLayout>
-        <Button  Text="Register" WidthRequest="120" HeightRequest="60" Grid.Row="4" Grid.ColumnSpan="2" Command="{Binding RegisterCommand}"/>
+        <Button BackgroundColor="#026691" Text="Register" WidthRequest="120" HeightRequest="60" Grid.Row="4" Grid.ColumnSpan="2" Command="{Binding RegisterCommand}"/>
     </StackLayout>
 </ContentPage>

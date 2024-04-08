@@ -6,7 +6,7 @@
     xmlns:views="clr-namespace:Ejuromag.View"
     xmlns:local="clr-namespace:Ejuromag"
     Shell.FlyoutBehavior="Flyout">
-
+    
     <Shell.FlyoutHeader>
         <Grid>
             <Image Source="ejuromaglogo.webp"/>

@@ -4,8 +4,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
-using static Java.Util.Jar.Attributes;
-using static System.Net.Mime.MediaTypeNames;
 
 namespace Ejuromag.API
 {

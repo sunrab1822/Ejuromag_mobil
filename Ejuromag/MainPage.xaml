@@ -1,8 +1,13 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
              x:Class="Ejuromag.MainPage"
-             Title="Home">
+             Title="Home"
+             BackgroundImageSource="background.webp">
+    <ContentPage.Behaviors>
+        <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Primary}"/>
+    </ContentPage.Behaviors>
     <Shell.TitleView>
         <Grid ColumnDefinitions="auto,*,auto">
             <Image Source="ejuromaglogo.webp"/>
@@ -19,22 +24,23 @@
             <Style TargetType="Button">
                 <Setter Property="WidthRequest" Value="100"/>
                 <Setter Property="HeightRequest" Value="40"/>
-                <Setter Property="BackgroundColor" Value="{StaticResource Primary}"/>
+                <Setter Property="BackgroundColor" Value="#026691"/>
                 <Setter Property="TextColor" Value="Black"/>
                 <Setter Property="FontAttributes" Value="Bold"/>
             </Style>
         </Grid.Resources>
-        <StackLayout Grid.Row="0" Orientation="Vertical" Margin="10">
+        <StackLayout Grid.Row="0" Orientation="Vertical" Margin="10" BackgroundColor="#026691">
             <Image Source="ejuromaglogo.webp" WidthRequest="200"/>
         </StackLayout>
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" VerticalOptions="Start">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*,*">
-                <Button Text="Laptops" Margin="5,0" Grid.Row="0" Grid.Column="0"/>
-                <Button Text="Consols" Margin="5,0" Grid.Row="0" Grid.Column="1"/>
-                <Button Text="Tablets" Margin="5,0" Grid.Row="0" Grid.Column="2"/>
-                <Button Text="Phones" Margin="5,10" Grid.Row="1" Grid.Column="0"/>
-                <Button Text="PCs" Margin="5,10" Grid.Row="1" Grid.Column="1"/>
+                <Button Text="Laptop" Margin="5,0" Grid.Row="0" Grid.Column="0"/>
+                <Button Text="Consol" Margin="5,0" Grid.Row="0" Grid.Column="1"/>
+                <Button Text="Tablet" Margin="5,0" Grid.Row="0" Grid.Column="2"/>
+                <Button Text="Phone" Margin="5,10" Grid.Row="1" Grid.Column="0"/>
+                <Button Text="Gamer PC" Margin="5,10" Grid.Row="1" Grid.Column="1"/>
+                <Button Text="Office PC" Margin="5,10" Grid.Row="1" Grid.Column="2"/>
             </Grid>
             
         </StackLayout>
@@ -50,14 +56,14 @@
             </CarouselView.ItemsSource>
             <CarouselView.ItemTemplate>
                 <DataTemplate>
-                    <VerticalStackLayout BackgroundColor="{StaticResource Primary}" Padding="5" HeightRequest="300">
+                    <VerticalStackLayout BackgroundColor="#026691" Padding="5" HeightRequest="300">
                         <Label FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding .}" VerticalTextAlignment="Center"/>
                     </VerticalStackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>
         </CarouselView>
 
-        <StackLayout Grid.Row="3" BackgroundColor="Black">
+        <StackLayout Grid.Row="3" BackgroundColor="#026691">
             <Grid ColumnDefinitions="1.5*,2*">
                 <Grid.Resources>
                     <Style TargetType="StackLayout">
@@ -75,9 +81,9 @@
                     <Label Text="@2024 - "/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Orientation="Horizontal">
-                    <Button ImageSource="{StaticResource Key=Facebook}" WidthRequest="50" Margin="10,0" BackgroundColor="Black"/>
-                    <Button ImageSource="{StaticResource Key=Tiktok}" WidthRequest="50" Margin="10,0" BackgroundColor="Black"/>
-                    <Button ImageSource="{StaticResource Key=Instagram}" WidthRequest="50" Margin="10,0" BackgroundColor="Black"/>
+                    <Button ImageSource="{StaticResource Key=Facebook}" WidthRequest="50" Margin="10,0" BackgroundColor="#026691"/>
+                    <Button ImageSource="{StaticResource Key=Tiktok}" WidthRequest="50" Margin="10,0" BackgroundColor="#026691"/>
+                    <Button ImageSource="{StaticResource Key=Instagram}" WidthRequest="50" Margin="10,0" BackgroundColor="#026691"/>
                 </StackLayout>
             </Grid>
         </StackLayout>
