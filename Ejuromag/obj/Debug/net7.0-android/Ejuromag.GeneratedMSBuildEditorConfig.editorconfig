@@ -12,75 +12,75 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = Ejuromag
-build_property.ProjectDir = C:\Users\veress.martin\Desktop\project\Ejuromag_mobil\Ejuromag\
+build_property.ProjectDir = C:\Users\Veress.Martin\Desktop\Ejuromag\Ejuromag_mobil\Ejuromag\
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/App.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/AppShell.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/MainPage.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/Resources/Styles/Colors.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Colors.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/Resources/Styles/Styles.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources\Styles\Styles.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources\Styles\Styles.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/AboutView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/AboutView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.AboutView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\AboutView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\AboutView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/CartView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/CartView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.CartView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\CartView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\CartView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/LoginView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/LoginView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.LoginView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\LoginView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\LoginView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/OrderAndDeliveryView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/OrderAndDeliveryView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.OrderAndDeliveryView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\OrderAndDeliveryView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\OrderAndDeliveryView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/ProductDetailsView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/ProductDetailsView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.ProductDetailsView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ProductDetailsView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ProductDetailsView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/ProductsView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/ProductsView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.ProductsView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\ProductsView.xaml
 build_metadata.AdditionalFiles.RelativePath = View\ProductsView.xaml
 
-[C:/Users/veress.martin/Desktop/project/Ejuromag_mobil/Ejuromag/View/RegisterView.xaml]
+[C:/Users/Veress.Martin/Desktop/Ejuromag/Ejuromag_mobil/Ejuromag/View/RegisterView.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = Ejuromag.View.RegisterView.xaml
 build_metadata.AdditionalFiles.TargetPath = View\RegisterView.xaml

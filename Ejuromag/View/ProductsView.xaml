@@ -6,11 +6,24 @@
              BackgroundImageSource="background.webp">
     <Grid RowDefinitions="*,4*">
         <Border Grid.Row="0" HeightRequest="80" WidthRequest="220" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
-            <Picker Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Product}" ItemDisplayBinding="{Binding Category.categoryName}" />
+            <Picker Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Product}" ItemDisplayBinding="{Binding Product.category_id}" />
         </Border>
 
         <ScrollView Grid.Row="1">
-            
+            <CollectionView>
+                <CollectionView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid RowDefinitions="auto, auto" ColumnDefinitions="auto, auto">
+                            <Image Grid.RowSpan="2" WidthRequest="100" MinimumWidthRequest="130" MinimumHeightRequest="60">
+                                <Image.Source>
+                                    <UriImageSource Uri="{Binding picture}" CachingEnabled="True" CacheValidity="10:00:00:00"/>
+                                </Image.Source>
+                            </Image>
+                            <Label Grid.Column="1" Text="{Binding name}" FontAttributes="Bold" Margin="5,0,0,0"/>
+                        </Grid>
+                    </DataTemplate>
+                </CollectionView.ItemTemplate>
+            </CollectionView>
         </ScrollView>
         
     </Grid>

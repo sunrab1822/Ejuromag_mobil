@@ -21,11 +21,13 @@
             <Label/>
         </StackLayout>
         
-        <!--data-->
-
-        <StackLayout Grid.Column="1" Grid.Row="4" Orientation="Horizontal">
+        <StackLayout Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
             <Label Text="Price: "/>
             <Label/>
+        </StackLayout>
+
+        <StackLayout Grid.Column="2" Grid.Row="3" Orientation="Horizontal">
+            <Label Text="a"/>
         </StackLayout>
     </Grid>
 </ContentPage>
