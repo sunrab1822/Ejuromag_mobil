@@ -8,7 +8,7 @@
         <Image Grid.Column="0"/>
         <StackLayout Grid.Column="1" Grid.Row="0" Orientation="Horizontal">
             <Label Text="ProductName: "/>
-            <Label/>
+            <Label Text="{Binding }"/>
         </StackLayout>
         
         <StackLayout Grid.Column="1" Grid.Row="1" Orientation="Horizontal">

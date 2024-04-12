@@ -2,29 +2,27 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.ProductsView"
+             xmlns:tool="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              Title="Products"
              BackgroundImageSource="background.webp">
+    <ContentPage.Behaviors>
+        <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
+    </ContentPage.Behaviors>
     <Grid RowDefinitions="*,4*">
         <Border Grid.Row="0" HeightRequest="80" WidthRequest="220" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
-            <Picker Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Product}" ItemDisplayBinding="{Binding Product.category_id}" />
+            <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}"/>
         </Border>
 
-        <ScrollView Grid.Row="1">
-            <CollectionView>
-                <CollectionView.ItemTemplate>
-                    <DataTemplate>
-                        <Grid RowDefinitions="auto, auto" ColumnDefinitions="auto, auto">
-                            <Image Grid.RowSpan="2" WidthRequest="100" MinimumWidthRequest="130" MinimumHeightRequest="60">
-                                <Image.Source>
-                                    <UriImageSource Uri="{Binding picture}" CachingEnabled="True" CacheValidity="10:00:00:00"/>
-                                </Image.Source>
-                            </Image>
-                            <Label Grid.Column="1" Text="{Binding name}" FontAttributes="Bold" Margin="5,0,0,0"/>
-                        </Grid>
-                    </DataTemplate>
-                </CollectionView.ItemTemplate>
-            </CollectionView>
-        </ScrollView>
-        
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" BackgroundColor="#1493ca">
+            <CollectionView.ItemTemplate>
+                <DataTemplate>
+                    <Grid RowDefinitions="auto, auto" ColumnDefinitions="auto, auto">
+                        <Image Source="{Binding picture}" Grid.RowSpan="2" WidthRequest="100" MinimumWidthRequest="130" MinimumHeightRequest="60"/>
+                        <Label Grid.Column="1" Text="{Binding name}" FontAttributes="Bold" Margin="5,0,0,0"/>
+                    </Grid>
+                </DataTemplate>
+            </CollectionView.ItemTemplate>
+        </CollectionView>
+
     </Grid>
 </ContentPage>

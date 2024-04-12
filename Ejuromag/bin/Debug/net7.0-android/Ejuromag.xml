@@ -7,6 +7,7 @@
         <member name="T:Ejuromag.ViewModel.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Ejuromag.ViewModel.LoginViewModel.Email">
             <inheritdoc cref="F:Ejuromag.ViewModel.LoginViewModel.email"/>
@@ -19,6 +20,38 @@
         </member>
         <member name="P:Ejuromag.ViewModel.LoginViewModel.AppearingCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.LoginViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.LoginViewModel._isLoggedInCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.LoginViewModel.isLoggedInCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.isLoggedInCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.LoginViewModel.isLoggedIn"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.ProductsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.Products">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.products"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.Categories">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.categories"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.SelectedProduct">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.selectedProduct"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductsViewModel.navigateToDetailsCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetails"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductsViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductsViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductsViewModel.Appearing"/>.</summary>
         </member>
         <member name="T:Ejuromag.ViewModel.RegisterViewModel">
             <inheritdoc/>
@@ -153,6 +186,15 @@
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
         </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedProduct">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedProduct" generated properties.</summary>
+        </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserName">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserName" generated properties.</summary>
         </member>
@@ -170,6 +212,15 @@
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedProduct">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedProduct" generated properties.</summary>
         </member>
         <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserName">
             <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserName" generated properties.</summary>

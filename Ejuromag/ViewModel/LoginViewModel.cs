@@ -28,5 +28,11 @@ namespace Ejuromag.ViewModel
                 Password = slices[2];
             }
         }
+
+        [RelayCommand]
+        void isLoggedIn()
+        {
+            
+        }
     }
 }

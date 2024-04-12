@@ -16,7 +16,7 @@
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="{StaticResource Key=Cart}" Order="Default" Clicked="Cart"/>
         <ToolbarItem x:Name="login_TLB" Text="Login" Order="Primary" Clicked="ToolbarItem_Clicked"/>
-        <ToolbarItem Text="Logout" Order="Secondary"/>
+        <ToolbarItem x:Name="logout_TLB" Text="Logout" Order="Secondary" Clicked="logout_TLB_Clicked"/>
     </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="0.25*,0.25*,1*,0.25*">
@@ -35,29 +35,28 @@
 
         <StackLayout Grid.Row="1" Orientation="Horizontal" VerticalOptions="Start">
             <Grid RowDefinitions="*,*" ColumnDefinitions="*,*,*">
-                <Button Text="Laptop" Margin="5,0" Grid.Row="0" Grid.Column="0"/>
-                <Button Text="Consol" Margin="5,0" Grid.Row="0" Grid.Column="1"/>
-                <Button Text="Tablet" Margin="5,0" Grid.Row="0" Grid.Column="2"/>
-                <Button Text="Phone" Margin="5,10" Grid.Row="1" Grid.Column="0"/>
-                <Button Text="Gamer PC" Margin="5,10" Grid.Row="1" Grid.Column="1"/>
-                <Button Text="Office PC" Margin="5,10" Grid.Row="1" Grid.Column="2"/>
+                <Button Text="Laptop" Margin="5,0" Grid.Row="0" Grid.Column="0" Clicked="Button_Clicked"/>
+                <Button Text="Consol" Margin="5,0" Grid.Row="0" Grid.Column="1" Clicked="Button_Clicked"/>
+                <Button Text="Tablet" Margin="5,0" Grid.Row="0" Grid.Column="2" Clicked="Button_Clicked"/>
+                <Button Text="Phone" Margin="5,10" Grid.Row="1" Grid.Column="0" Clicked="Button_Clicked"/>
+                <Button Text="Gamer PC" Margin="5,10" Grid.Row="1" Grid.Column="1" Clicked="Button_Clicked"/>
+                <Button Text="Office PC" Margin="5,10" Grid.Row="1" Grid.Column="2" Clicked="Button_Clicked"/>
             </Grid>
             
         </StackLayout>
 
-        <CarouselView Grid.Row="2">
+        <CarouselView x:Name="carouselView" Grid.Row="2" >
             <CarouselView.ItemsSource>
                 <x:Array Type="{x:Type x:String}">
                     <x:String>Item 1</x:String>
                     <x:String>Item 2</x:String>
                     <x:String>Item 3</x:String>
-                    <x:String>Item 4</x:String>
                 </x:Array>
             </CarouselView.ItemsSource>
             <CarouselView.ItemTemplate>
                 <DataTemplate>
-                    <VerticalStackLayout BackgroundColor="#026691" Padding="5" HeightRequest="300">
-                        <Label FontSize="Medium" FontAttributes="Bold" HorizontalTextAlignment="Center" Text="{Binding .}" VerticalTextAlignment="Center"/>
+                    <VerticalStackLayout Padding="5" HeightRequest="300">
+                        <Image Source="{Binding Image}"/>
                     </VerticalStackLayout>
                 </DataTemplate>
             </CarouselView.ItemTemplate>

@@ -8,17 +8,18 @@ namespace Ejuromag.Models
 {
 
 
-    public class Product
+
+    public class ProductRoot
     {
         public bool error { get; set; }
-        public Data[] data { get; set; }
+        public Product[] data { get; set; }
     }
 
-    public class Data
+    public class Product
     {
         public int id { get; set; }
-        public Category category_id { get; set; }
-        public Manufacturer manufacturer_id { get; set; }
+        public int category_id { get; set; }
+        public int manufacturer_id { get; set; }
         public string description { get; set; }
         public string name { get; set; }
         public int price { get; set; }
@@ -26,6 +27,7 @@ namespace Ejuromag.Models
         public DateTime created_at { get; set; }
         public DateTime updated_at { get; set; }
     }
+
 
 
 }

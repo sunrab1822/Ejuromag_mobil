@@ -2,8 +2,9 @@ namespace Ejuromag.View;
 
 public partial class ProductDetailsView : ContentPage
 {
-	public ProductDetailsView()
+	public ProductDetailsView(ProductDetailsView vm)
 	{
 		InitializeComponent();
+		this.BindingContext = vm;
 	}
 }

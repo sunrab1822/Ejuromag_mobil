@@ -11,14 +11,37 @@ namespace Ejuromag.API
     {
         public static List<Product> GetProducts()
         {
-            List<Product> products = new List<Product>();
+            List<Product> productList = new List<Product>();
             Parallel.Invoke(() =>
             {
                 string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/products";
-                products = HTTPConnection<List<Product>>.Get(url).Result;
+                productList = HTTPConnection<ProductRoot>.Get(url).Result.data.ToList();
             });
-            return products;
+            return productList;
         }
+
+        public static List<Category> GetCategories()
+        {
+            List<Category> categories = new List<Category>();
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/categories";
+                categories = HTTPConnection<CategoryRoot>.Get(url).Result.data.ToList();
+            });
+            return categories;
+        }
+
+        public static List<Manufacturer> GetManufacturers()
+        {
+            List<Manufacturer> manufacturers = new List<Manufacturer>();
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/manufacturers";
+                manufacturers = HTTPConnection<ManufacturerRoot>.Get(url).Result.data.ToList();
+            });
+            return manufacturers;
+        }
+
 
         public static User Register(string name ,string email, string password, string password2)
         {

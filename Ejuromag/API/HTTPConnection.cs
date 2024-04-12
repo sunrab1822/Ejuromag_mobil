@@ -9,19 +9,20 @@ namespace Ejuromag.API
 {
     static class HTTPConnection<T> where T : class
     {
-        public async static Task<T?> Get(string url)
+        public async static Task<T> Get(string url)
         {
             using var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Get, url);
             using var response = await client.SendAsync(request).ConfigureAwait(false);
-            if(response.IsSuccessStatusCode)
+            if (response.IsSuccessStatusCode)
             {
                 string resultString = response.Content.ReadAsStringAsync().Result;
-                T? obj = JsonSerializer.Deserialize<T>(resultString);
-                return obj;
+                T rootObj = JsonSerializer.Deserialize<T>(resultString);
+                return rootObj;
             }
             return null;
         }
+
 
         public async static Task<T> Post(string url, string body)
         {

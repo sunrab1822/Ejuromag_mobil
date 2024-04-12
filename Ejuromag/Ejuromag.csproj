@@ -53,6 +53,9 @@
 	  <None Remove="Resources\Fonts\fa_solid_900.ttf" />
 	  <None Remove="Resources\Images\background.webp" />
 	  <None Remove="Resources\Images\ejuromaglogo.webp" />
+	  <None Remove="Resources\Images\NeedToRegisterSlides2.webp" />
+	  <None Remove="Resources\Images\SocialMediaSlides33.webp" />
+	  <None Remove="Resources\Images\vueperSlides1.webp" />
 	</ItemGroup>
 
 	<ItemGroup>
