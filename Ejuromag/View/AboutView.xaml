@@ -4,64 +4,71 @@
              x:Class="Ejuromag.View.AboutView"
              Title="About Us"
              BackgroundImageSource="background.webp">
-    <Grid RowDefinitions="*,*,1.5*">
+    <ScrollView>
+        <Grid RowDefinitions="*,*,1.5*">
+            <StackLayout Grid.Row="0">
+                <StackLayout.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="TextColor" Value="White"/>
+                    </Style>
+                </StackLayout.Resources>
+                <Label Text="Cégtörténet" FontSize="20" FontAttributes="Bold" Margin="5,5,0,0"/>
+                <Label Text="Az Ejuromag egy elektronikai árukat forgalmazó webshop, amit én és két társam alapítottunk Győrben." Margin="5" FontAttributes="Italic"/>
+                <Label Text="Célunk az volt, hogy létrehozzunk egy megbízható és kényelmes online platformot az elektronikai termékek vásárlásához." Margin="5" FontAttributes="Italic"/>
+                <Label Text="Széles választékot kínálunk, beleértve okostelefonokat, laptopokat és szórakoztató elektronikai eszközöket."  Margin="5" FontAttributes="Italic"/>
+                <Label Text="Mindig figyelemmel kísérjük az új technológiákat és trendeket, hogy mindig a legfrissebb termékeket kínálhassuk."  Margin="5" FontAttributes="Italic"/>
+                <Label Text="Ügyfélszolgálatunk kiemelt figyelmet kap, mindig elérhetőek vagyunk, hogy válaszoljunk a kérdésekre és segítsünk megoldani az esetleges problémákat."  Margin="5" FontAttributes="Italic"/>
+                <Label Text="Az elégedett vásárlók számára az Ejuromag megbízható partner lett, akire mindig számíthatnak."  Margin="5" FontAttributes="Italic"/>
+                <Label Text="Elkötelezettek vagyunk a magas minőség és a kiváló ügyfélszolgálat iránt, és folyamatosan frissítjük termékkínálatunkat, hogy megfeleljünk az ügyfelek igényeinek és az új technológiai fejleményeknek."  Margin="5" FontAttributes="Italic"/> 
+            </StackLayout>
 
-                <StackLayout Grid.Row="0">
-                    <StackLayout.Resources>
-                        <Style TargetType="Label">
-                            <Setter Property="TextColor" Value="White"/>
-                        </Style>
-                    </StackLayout.Resources>
-                    <Label Text="Cégtörténet" FontSize="20" FontAttributes="Bold" Margin="5,5,0,0"/>
-                    <Label Text="" Margin="5" FontAttributes="Italic"/>
-                </StackLayout>
+            <StackLayout Grid.Row="1">
+                <StackLayout.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="TextColor" Value="White"/>
+                    </Style>
+                </StackLayout.Resources>
+                <Label Text="Ügyintézés" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0"/>
+                <Label Text="Amennyiben áruházunkkal forgalmazott termékekkel kapcsolatosan panasszal élne, központunkban személyesen is megteheti ezt." Margin="5"/>
+                <Label Text="Központi ügyfélszolgálatunk készségesen áll vásárlóink rendelkezésére, legyen szó konkrét problémáról vagy spontán segítségről. Cégünk folyamatos fejlesztésekkel arra törekszik, hogy az ügyfelek kiszolgálása gördülékenyebben és pontosabban tudjon megvalósulni a központi ügyfélszolgálaton is." Margin="5" FontAttributes="Italic"/>
+            </StackLayout>
 
-                <StackLayout Grid.Row="1">
-                    <StackLayout.Resources>
-                        <Style TargetType="Label">
-                            <Setter Property="TextColor" Value="White"/>
-                        </Style>
-                    </StackLayout.Resources>
-                    <Label Text="Ügyintézés" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0"/>
-                    <Label Text="Amennyiben áruházunkkal forgalmazott termékekkel kapcsolatosan panasszal élne, központunkban személyesen is megteheti ezt." Margin="5"/>
-                    <Label Text="Központi ügyfélszolgálatunk készségesen áll vásárlóink rendelkezésére, legyen szó konkrét problémáról vagy spontán segítségről. Cégünk folyamatos fejlesztésekkel arra törekszik, hogy az ügyfelek kiszolgálása gördülékenyebben és pontosabban tudjon megvalósulni a központi ügyfélszolgálaton is." Margin="5" FontAttributes="Italic"/>
-                </StackLayout>
-
-                <StackLayout Grid.Row="2" Margin="5,5,0,0">
-                    <StackLayout.Resources>
-                        <Style TargetType="Border">
-                            <Setter Property="StrokeThickness" Value="5"/>
-                            <Setter Property="Stroke" Value="Black"/>
-                        </Style>
-                    </StackLayout.Resources>
-                    <Label Text="Elérhetőségek:" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,10,0,5"/>
-                    <Border >
-                        <Grid RowDefinitions="*,*,*,*,*,*" BackgroundColor="Grey">
-                            <StackLayout Orientation="Horizontal" Grid.Row="0" HeightRequest="30" Margin="5">
-                                <Label Text="Cégnév: " WidthRequest="140"/>
-                                <Label Text="EjuroMag Kft." Grid.Column="1"/>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" Grid.Row="1" HeightRequest="30" Margin="5">
-                                <Label Text="Székhely: " WidthRequest="140"/>
-                                <Label Text="9082 Nyúl Iskola utca 7"/>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" Grid.Row="2" HeightRequest="30" Margin="5">
-                                <Label Text="Levelezési cím: " WidthRequest="140"/>
-                                <Label Text="9082 Nyúl Iskola utca 7"/>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" Grid.Row="3" HeightRequest="30" Margin="5">
-                                <Label Text="Telefon:" WidthRequest="140"/>
-                                <Label Text="+36 1 411 8434"/>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" Grid.Row="4" HeightRequest="30" Margin="5">
-                                <Label Text="(H: 8:30-20:00 K-Szo: 8:30-19:00; V: 10:00-18:30)" Margin="10,0"/>
-                            </StackLayout>
-                            <StackLayout Orientation="Horizontal" Grid.Row="5" HeightRequest="30" Margin="5">
-                                <Label Text="E-mail: " WidthRequest="140"/>
-                                <Label Text="ugyfelszolgalat@ejuromag.hu"/>
-                            </StackLayout>
-                        </Grid>
-                    </Border>
-                </StackLayout>
-            </Grid>
+            <StackLayout Grid.Row="2" Margin="5,5,0,0">
+                <StackLayout.Resources>
+                    <Style TargetType="Border">
+                        <Setter Property="StrokeThickness" Value="5"/>
+                        <Setter Property="Stroke" Value="Black"/>
+                    </Style>
+                </StackLayout.Resources>
+                <Label Text="Elérhetőségek:" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,10,0,5"/>
+                <Border >
+                    <Grid RowDefinitions="*,*,*,*,*,*" BackgroundColor="Grey">
+                        <StackLayout Orientation="Horizontal" Grid.Row="0" HeightRequest="30" Margin="5">
+                            <Label Text="Cégnév: " WidthRequest="140"/>
+                            <Label Text="EjuroMag Kft." Grid.Column="1"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.Row="1" HeightRequest="30" Margin="5">
+                            <Label Text="Székhely: " WidthRequest="140"/>
+                            <Label Text="9082 Nyúl Iskola utca 7"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.Row="2" HeightRequest="30" Margin="5">
+                            <Label Text="Levelezési cím: " WidthRequest="140"/>
+                            <Label Text="9082 Nyúl Iskola utca 7"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.Row="3" HeightRequest="30" Margin="5">
+                            <Label Text="Telefon:" WidthRequest="140"/>
+                            <Label Text="+36 1 411 8434"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.Row="4" HeightRequest="30" Margin="5">
+                            <Label Text="(H: 8:30-20:00 K-Szo: 8:30-19:00; V: 10:00-18:30)" Margin="10,0"/>
+                        </StackLayout>
+                        <StackLayout Orientation="Horizontal" Grid.Row="5" HeightRequest="30" Margin="5">
+                            <Label Text="E-mail: " WidthRequest="140"/>
+                            <Label Text="ugyfelszolgalat@ejuromag.hu"/>
+                        </StackLayout>
+                    </Grid>
+                </Border>
+            </StackLayout>
+        </Grid>
+    </ScrollView>
 </ContentPage>

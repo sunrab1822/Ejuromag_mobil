@@ -3,6 +3,7 @@ using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
 using Ejuromag.API;
 using Ejuromag.Models;
+using Ejuromag.View;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
@@ -30,9 +31,9 @@ namespace Ejuromag.ViewModel
             {
                 Dictionary<string, object> navigationParameter = new Dictionary<string, object>
                 {
-                    {"Game", SelectedProduct},
+                    {"Product", SelectedProduct}
                 };
-                return Shell.Current.GoToAsync("ProductDetailsPage", true, navigationParameter);
+                return Shell.Current.GoToAsync(nameof(ProductDetailsView), true, navigationParameter);
             }
             return Shell.Current.DisplayAlert("Hiba!", "A kiválasztott termék adatai nem jeleníthetőek meg!", "Ok");
         }

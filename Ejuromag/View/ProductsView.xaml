@@ -13,7 +13,7 @@
             <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}"/>
         </Border>
 
-        <CollectionView Grid.Row="1" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" BackgroundColor="#1493ca">
+        <CollectionView Grid.Row="1" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" SelectionChangedCommand="{Binding NavigateToDetailsCommand}" BackgroundColor="#1493ca">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid RowDefinitions="auto, auto" ColumnDefinitions="auto, auto">
