@@ -34487,24 +34487,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Veress.Martin\\.nuget\\packages\\": {},
+    "C:\\Users\\veress.martin\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Veress.Martin\\Desktop\\Ejuromag\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
+      "projectUniqueName": "C:\\Users\\veress.martin\\Desktop\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
       "projectName": "Ejuromag",
-      "projectPath": "C:\\Users\\Veress.Martin\\Desktop\\Ejuromag\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
-      "packagesPath": "C:\\Users\\Veress.Martin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Veress.Martin\\Desktop\\Ejuromag\\Ejuromag_mobil\\Ejuromag\\obj\\",
+      "projectPath": "C:\\Users\\veress.martin\\Desktop\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
+      "packagesPath": "C:\\Users\\veress.martin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\veress.martin\\Desktop\\Ejuromag_mobil\\Ejuromag\\obj\\",
       "projectStyle": "PackageReference",
       "crossTargeting": true,
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Veress.Martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\veress.martin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],

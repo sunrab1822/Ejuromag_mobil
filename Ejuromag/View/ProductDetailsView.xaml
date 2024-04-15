@@ -4,30 +4,41 @@
              x:Class="Ejuromag.View.ProductDetailsView"
              Title="{Binding SelectedProduct.name}"
              BackgroundImageSource="background.webp">
-    <Grid RowDefinitions="*,*,*,*,*" ColumnDefinitions="*,*">
-        <Image Grid.Column="0"/>
-        <StackLayout Grid.Column="1" Grid.Row="0" Orientation="Horizontal">
-            <Label Text="ProductName: "/>
-            <Label Text="{Binding SelectedProduct.picture}"/>
+    <ContentPage.Resources>
+        <Style TargetType="Label">
+            <Setter Property="TextColor" Value="White"/>
+        </Style>
+    </ContentPage.Resources>
+    <Grid RowDefinitions="*,*,*,*,*,*" ColumnDefinitions="*,*" Margin="5,0">
+        <StackLayout Grid.Column="0" Grid.Row="0" HeightRequest="30">
+            <StackLayout Orientation="Horizontal">
+                <Label Text="ProductName: "/>
+                <Label Text="{Binding SelectedProduct.name}"/>
+            </StackLayout>
         </StackLayout>
-        
-        <StackLayout Grid.Column="1" Grid.Row="1" Orientation="Horizontal">
+
+        <StackLayout Grid.Column="0" Grid.Row="1" HeightRequest="30">
             <Label Text="Manufacturer: "/>
             <Label />
         </StackLayout>
 
-        <StackLayout Grid.Column="1" Grid.Row="2" Orientation="Horizontal" >
+        <StackLayout Grid.Column="0" Grid.Row="2" HeightRequest="30">
             <Label Text="Brand: "/>
             <Label />
         </StackLayout>
-        
-        <StackLayout Grid.Column="1" Grid.Row="3" Orientation="Horizontal">
+
+        <StackLayout Grid.Column="0" Grid.Row="3" Orientation="Horizontal" HeightRequest="30">
             <Label Text="Price: "/>
             <Label Text="{Binding SelectedProduct.price}"/>
         </StackLayout>
 
-        <StackLayout Grid.Column="2" Grid.Row="3" Orientation="Horizontal">
-            <Label Text="{Binding SelectedProduct.description}"/>
+        <StackLayout Grid.ColumnSpan="2" Grid.Row="4" HeightRequest="120">
+            <Label Text="Description: "/>
+            <Border WidthRequest="400" HeightRequest="120" BackgroundColor="#1493ca">
+                <Label WidthRequest="300" Text="{Binding SelectedProduct.description}"/>
+            </Border>
         </StackLayout>
+
+        <Button Text="Add to cart" Grid.Row="5" Grid.ColumnSpan="2" HeightRequest="40" WidthRequest="150" CornerRadius="10" HorizontalOptions="Center"/>
     </Grid>
 </ContentPage>

@@ -6,6 +6,7 @@ namespace Ejuromag
         public AppShell()
         {
             InitializeComponent();
+            Routing.RegisterRoute(nameof(ProductDetailsView), typeof(ProductDetailsView));
             Routing.RegisterRoute(nameof(LoginView), typeof(LoginView));
             Routing.RegisterRoute(nameof(RegisterView), typeof(RegisterView));
             Routing.RegisterRoute(nameof(CartView), typeof(CartView));

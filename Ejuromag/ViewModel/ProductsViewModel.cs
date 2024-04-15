@@ -33,7 +33,7 @@ namespace Ejuromag.ViewModel
                 {
                     {"Product", SelectedProduct}
                 };
-                return Shell.Current.GoToAsync(nameof(ProductDetailsView), true, navigationParameter);
+                return Shell.Current.GoToAsync("ProductDetailsView", true, navigationParameter);
             }
             return Shell.Current.DisplayAlert("Hiba!", "A kiválasztott termék adatai nem jeleníthetőek meg!", "Ok");
         }
