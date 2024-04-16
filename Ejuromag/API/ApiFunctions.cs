@@ -28,6 +28,7 @@ namespace Ejuromag.API
                 string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/categories";
                 categories = HTTPConnection<CategoryRoot>.Get(url).Result.data.ToList();
             });
+            categories.Insert(0, new Category() { id = 0, categoryName = "Mind" });
             return categories;
         }
 

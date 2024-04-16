@@ -13,6 +13,7 @@ using System.Threading.Tasks;
 
 namespace Ejuromag.ViewModel
 {
+    [QueryProperty(nameof(ProductCategory), "Category")]
     public partial class ProductsViewModel : ObservableObject
     {
         [ObservableProperty]
@@ -23,6 +24,12 @@ namespace Ejuromag.ViewModel
 
         [ObservableProperty]
         Product selectedProduct;
+
+        [ObservableProperty]
+        Category productCategory;
+
+        [ObservableProperty]
+        int categoryID;
 
         [RelayCommand]
         Task NavigateToDetails()
@@ -41,8 +48,35 @@ namespace Ejuromag.ViewModel
         [RelayCommand]
         async void Appearing()
         {
+            if(ProductCategory == null)
+            {
+                Categories = ApiFunctions.GetCategories().ToObservableCollection();
+                Products = ApiFunctions.GetProducts().ToObservableCollection();
+            }
+            
+        }
+
+        partial void OnProductCategoryChanged(Category value)
+        {
+            Categories = ApiFunctions.GetCategories().ToObservableCollection();
             Products = ApiFunctions.GetProducts().ToObservableCollection();
             Categories = ApiFunctions.GetCategories().ToObservableCollection();
+            if (ProductCategory != null)
+            {
+                CategoryID = value.id;
+                Products = Products.Where(x => x.category_id == ProductCategory.id).ToObservableCollection();
+            }  
         }
+
+        partial void OnCategoryIDChanged(int value)
+        {
+            
+            Products = ApiFunctions.GetProducts().ToObservableCollection();
+            if (value != 0)
+            {
+                Products = Products.Where(x => x.category_id == value).ToObservableCollection();
+            }
+        }
+
     }
 }

@@ -20,6 +20,8 @@ namespace Ejuromag
                     fonts.AddFont("fa_brands.ttf", "Brands");
                     fonts.AddFont("fa_solid_900.ttf", "FontAwesome");
                 });
+            builder.Services.AddSingleton<MainPage>();
+            builder.Services.AddSingleton<MainViewModel>();
             builder.Services.AddSingleton<RegisterView>();
             builder.Services.AddSingleton<RegisterViewModel>();
             builder.Services.AddSingleton<LoginView>();
