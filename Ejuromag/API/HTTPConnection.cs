@@ -24,11 +24,15 @@ namespace Ejuromag.API
         }
 
 
-        public async static Task<T> Post(string url, string body)
+        public async static Task<T> Post(string url, string body, string header)
         {
             using var client = new HttpClient();
             var request = new HttpRequestMessage(HttpMethod.Post, url);
             request.Headers.Add("Accept", "application/json");
+            if (header != null)
+            {
+                request.Headers.Add("Authorization", "Bearer " + $"{header}");
+            }
             //var content = new StringContent("{\r\n    \"name\": \"szisziakukas\",\r\n    \"email\": \"veress.martin33@gmail.com\",\r\n    \"password\": \"Abcd12345\",\r\n    \"password_confirmation\": \"Abcd12345\"\r\n}", null, "application/json");
             var content = new StringContent($"{body}", null, "application/json");
             request.Content = content;

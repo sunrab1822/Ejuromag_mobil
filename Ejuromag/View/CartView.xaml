@@ -4,15 +4,21 @@
              x:Class="Ejuromag.View.CartView"
              Title="CartView"
              BackgroundImageSource="background.webp">
-    <Grid RowDefinitions="0.25*,*,*">
+    <Grid RowDefinitions="0.25*,*,*,*">
+        <Grid.Resources>
+            <Style TargetType="Button">
+                <Setter Property="BorderColor" Value="Black"/>
+                <Setter Property="BorderWidth" Value="2"/>
+                <Setter Property="HeightRequest" Value="60"/>
+                <Setter Property="WidthRequest" Value="120"/>
+            </Style>
+        </Grid.Resources>
         <Label Text="Cart" Grid.Row="0" FontSize="Large" TextColor="{StaticResource Primary}" HorizontalOptions="Center" VerticalOptions="Center"/>
         <StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="150">
             <Grid ColumnDefinitions="0.9*,*,1.2*" Margin="5">
-                <StackLayout Grid.Column="0">
-                    <Label Text="termék neve"/>
-                </StackLayout>
-                <StackLayout Grid.Column="1">
-                    <Label Text="termék Képe"/>
+                <StackLayout Grid.ColumnSpan="2" Orientation="Horizontal">
+                    <Label Text="termék Képe" Margin="10,0"/>
+                    <Image Aspect="AspectFill"/>
                 </StackLayout>
                 <StackLayout Grid.Column="2">
                     <Label Text="100000 Ft" HorizontalOptions="Center"/>
@@ -41,11 +47,6 @@
                             <Setter Property="VerticalOptions" Value="Center"/>
                             <Setter Property="HorizontalOptions" Value="Center"/>
                         </Style>
-                        <Style TargetType="Button">
-                            <Setter Property="BorderColor" Value="Black"/>
-                            <Setter Property="BorderWidth" Value="2"/>
-                            <Setter Property="WidthRequest" Value="120"/>
-                        </Style>
                     </Grid.Resources>
                     <Label Text="Rendelés összegzése" FontSize="Large"/>
                     <Line Stroke="black"/>
@@ -53,24 +54,23 @@
                         <Grid RowDefinitions="*,*">
                             <StackLayout Grid.Row="0" Orientation="Horizontal">
                                 <Label Text="Összeg: " WidthRequest="180"/>
-                                <Entry Text="asd" WidthRequest="100"/>
+                                <Entry Text="" WidthRequest="100"/>
                             </StackLayout>
                             <StackLayout Grid.Row="1" Orientation="Horizontal">
                                 <Label Text="Szállítási költség: " WidthRequest="180"/>
-                                <Entry Text="asd" WidthRequest="100"/>
+                                <Entry Text="" WidthRequest="100"/>
                             </StackLayout>
                         </Grid>
                         <Grid RowDefinitions="*,1.25*">
                             <StackLayout Grid.Row="0" Orientation="Horizontal">
                                 <Label Text="Végösszeg: " WidthRequest="180"/>
-                                <Entry Text="asd" WidthRequest="100"/>
+                                <Entry Text="" WidthRequest="100"/>
                             </StackLayout>
-                            <Button Grid.Row="1" Margin="0,5" Text="Folytatás" TextColor="Black" BackgroundColor="White"/>
                         </Grid>
                     </StackLayout>
                 </Grid>
             </Border>
-            
         </StackLayout>
+        <Button Grid.Row="3" Margin="0,5" Text="Rendelés" TextColor="Black" BackgroundColor="White" Command="{Binding SetOrderCommand}"/>
     </Grid>
 </ContentPage>

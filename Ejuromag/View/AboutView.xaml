@@ -3,16 +3,17 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.AboutView"
              Title="About Us"
-             BackgroundImageSource="background.webp">
+             BackgroundColor="#026691">
     <ScrollView>
         <Grid RowDefinitions="*,*,1.5*">
             <StackLayout Grid.Row="0">
                 <StackLayout.Resources>
                     <Style TargetType="Label">
                         <Setter Property="TextColor" Value="White"/>
+                        <Setter Property="FontFamily" Value="Justified"/>
                     </Style>
                 </StackLayout.Resources>
-                <Label Text="Cégtörténet" FontSize="20" FontAttributes="Bold" Margin="5,5,0,0"/>
+                <Label Text="Cégtörténet" FontSize="20" FontAttributes="Bold" Margin="5,5,0,0" TextDecorations="Underline"/>
                 <Label Text="Az Ejuromag egy elektronikai árukat forgalmazó webshop, amit én és két társam alapítottunk Győrben." Margin="5" FontAttributes="Italic"/>
                 <Label Text="Célunk az volt, hogy létrehozzunk egy megbízható és kényelmes online platformot az elektronikai termékek vásárlásához." Margin="5" FontAttributes="Italic"/>
                 <Label Text="Széles választékot kínálunk, beleértve okostelefonokat, laptopokat és szórakoztató elektronikai eszközöket."  Margin="5" FontAttributes="Italic"/>
@@ -26,9 +27,10 @@
                 <StackLayout.Resources>
                     <Style TargetType="Label">
                         <Setter Property="TextColor" Value="White"/>
+                        <Setter Property="FontFamily" Value="Justified"/>
                     </Style>
                 </StackLayout.Resources>
-                <Label Text="Ügyintézés" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0"/>
+                <Label Text="Ügyintézés" FontSize="20" FontAttributes="Bold" Margin="5,0,0,0" TextDecorations="Underline"/>
                 <Label Text="Amennyiben áruházunkkal forgalmazott termékekkel kapcsolatosan panasszal élne, központunkban személyesen is megteheti ezt." Margin="5"/>
                 <Label Text="Központi ügyfélszolgálatunk készségesen áll vásárlóink rendelkezésére, legyen szó konkrét problémáról vagy spontán segítségről. Cégünk folyamatos fejlesztésekkel arra törekszik, hogy az ügyfelek kiszolgálása gördülékenyebben és pontosabban tudjon megvalósulni a központi ügyfélszolgálaton is." Margin="5" FontAttributes="Italic"/>
             </StackLayout>
@@ -40,7 +42,7 @@
                         <Setter Property="Stroke" Value="Black"/>
                     </Style>
                 </StackLayout.Resources>
-                <Label Text="Elérhetőségek:" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,10,0,5"/>
+                <Label Text="Elérhetőségek:" TextColor="White" FontSize="20" FontAttributes="Bold" Margin="0,10,0,5" TextDecorations="Underline"/>
                 <Border >
                     <Grid RowDefinitions="*,*,*,*,*,*" BackgroundColor="Grey">
                         <StackLayout Orientation="Horizontal" Grid.Row="0" HeightRequest="30" Margin="5">

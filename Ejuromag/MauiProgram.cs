@@ -26,6 +26,8 @@ namespace Ejuromag
             builder.Services.AddSingleton<RegisterViewModel>();
             builder.Services.AddSingleton<LoginView>();
             builder.Services.AddSingleton<LoginViewModel>();
+            builder.Services.AddSingleton<PasswordResetView>();
+            builder.Services.AddSingleton<PasswordResetViewModel>();
             builder.Services.AddSingleton<ProductsView>();
             builder.Services.AddSingleton<ProductsViewModel>();
             builder.Services.AddSingleton<ProductDetailsView>();

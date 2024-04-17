@@ -1,5 +1,8 @@
 ﻿using CommunityToolkit.Mvvm.ComponentModel;
 using CommunityToolkit.Mvvm.Input;
+using Ejuromag.API;
+using Ejuromag.Models;
+using Ejuromag.View;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -33,6 +36,36 @@ namespace Ejuromag.ViewModel
         void isLoggedIn()
         {
             
+        }
+
+        [RelayCommand]
+        void Login()
+        {
+            if (String.IsNullOrWhiteSpace(Email))
+            {
+                Shell.Current.DisplayAlert("Hiba!", "Please fill the email field!", "OK");
+                return;
+            }
+            if (Email == null || !Email.Contains("@"))
+            {
+                Shell.Current.DisplayAlert("Hiba!", "Email is incorrect!", "OK");
+                return;
+            }
+            if (Password == null && Password.Length < 8)
+            {
+                Shell.Current.DisplayAlert("Hiba!", "Password is incorrect!", "OK");
+                return;
+            }
+            User user = ApiFunctions.Login(Email, Password);
+            if (user != null)
+            {
+                SecureStorage.Default.SetAsync("userData", $"{user.user.name};{user.user.email};{Password};{user.token}");
+                Shell.Current.GoToAsync("//MainPage");
+            }
+            else
+            {
+                Shell.Current.DisplayAlert("Hiba!", "Login failed!", "OK");
+            }
         }
     }
 }

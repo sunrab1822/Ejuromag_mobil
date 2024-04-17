@@ -68,8 +68,8 @@
                     </Style>
                 </Grid.Resources>
                 <StackLayout Grid.Column="0">
-                    <Label Text="Rendelés és szállítás"/>
-                    <Label Text="Rólunk"/>
+                    <Label Text="Order and Delivery"/>
+                    <Label Text="About us"/>
                     <Label Text="@2024 - "/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Orientation="Horizontal">

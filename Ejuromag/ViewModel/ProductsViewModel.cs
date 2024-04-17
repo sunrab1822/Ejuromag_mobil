@@ -17,10 +17,13 @@ namespace Ejuromag.ViewModel
     public partial class ProductsViewModel : ObservableObject
     {
         [ObservableProperty]
-        public ObservableCollection<Product> products;
+        public List<Product> products;
 
         [ObservableProperty]
-        public ObservableCollection<Category> categories;
+        public List<Product> productsToShow;
+
+        [ObservableProperty]
+        public List<Category> categories;
 
         [ObservableProperty]
         Product selectedProduct;
@@ -48,34 +51,29 @@ namespace Ejuromag.ViewModel
         [RelayCommand]
         async void Appearing()
         {
-            if(ProductCategory == null)
+            if (ProductCategory == null)
             {
-                Categories = ApiFunctions.GetCategories().ToObservableCollection();
-                Products = ApiFunctions.GetProducts().ToObservableCollection();
+                Categories = ApiFunctions.GetCategories().ToList();
+                Products = ApiFunctions.GetProducts().ToList();
             }
-            
         }
 
         partial void OnProductCategoryChanged(Category value)
         {
-            Categories = ApiFunctions.GetCategories().ToObservableCollection();
-            Products = ApiFunctions.GetProducts().ToObservableCollection();
-            Categories = ApiFunctions.GetCategories().ToObservableCollection();
+            Categories = ApiFunctions.GetCategories().ToList();
+            Products = ApiFunctions.GetProducts().ToList();
             if (ProductCategory != null)
             {
                 CategoryID = value.id;
-                Products = Products.Where(x => x.category_id == ProductCategory.id).ToObservableCollection();
-            }  
+                Products = Products.Where(x => x.category_id == ProductCategory.id).ToList();
+            }
         }
 
         partial void OnCategoryIDChanged(int value)
         {
-            
-            Products = ApiFunctions.GetProducts().ToObservableCollection();
+            Products = ApiFunctions.GetProducts().ToList();
             if (value != 0)
-            {
-                Products = Products.Where(x => x.category_id == value).ToObservableCollection();
-            }
+                Products = Products.Where(x => x.category_id == value).ToList();
         }
 
     }

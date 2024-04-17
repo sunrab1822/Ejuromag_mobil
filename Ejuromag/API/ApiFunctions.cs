@@ -50,8 +50,64 @@ namespace Ejuromag.API
             Parallel.Invoke(() =>
             {
                 string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/register";
-                string content ='{' + $"\r\\n    \\\"name\\\": \\\"{name}\\\",\\r\\n    \\\"email\\\": \\\"{email}\\\",\\r\\n    \\\"password\\\": \\\"{password}\\\",\\r\\n    \\\"password_confirmation\\\": \\\"{password2}\\\"\\r\\n" + "}";
-                user = HTTPConnection<UserRoot>.Post(url, content).Result;
+                string content ='{' + $"\r\n  \"name\": \"{name}\",\r\n  \"email\": \"{email}\",\r\n  \"password\": \"{password}\",\r\n  \"password_confirmation\": \"{password2}\"\r\n" + '}';
+                user = HTTPConnection<UserRoot>.Post(url, content, null).Result;
+            });
+            if (user != null)
+                return user.user;
+            return null;
+        }
+
+        public static User Login(string email, string password)
+        {
+            UserRoot user = null;
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/login";
+                string content = '{' + $"\r\n  \"email\": \"{email}\",\r\n  \"password\": \"{password}\"\r\n" + '}';
+                user = HTTPConnection<UserRoot>.Post(url, content, null).Result;
+            });
+            if (user != null)
+                return user.user;
+            return null;
+        }
+
+        public static User Logout(string header)
+        {
+            UserRoot user = null;
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/logout";
+                string content = "{ }";
+                user = HTTPConnection<UserRoot>.Post(url, content, header).Result;
+            });
+            if (user != null)
+                return user.user;
+            return null;
+        }
+
+        public static MessageRoot ResetPassword(string email)
+        {
+            MessageRoot message = null;
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/reset-password-token";
+                string content = '{' + $"\r\n  \"email\": \"{email}\"" + '}';
+                message = HTTPConnection<MessageRoot>.Post(url, content, null).Result;
+            });
+            if (message != null)
+                return message;
+            return null;
+        }
+
+        public static User SendOrder(string email, string address, int[] productsID, string header)
+        {
+            UserRoot user = null;
+            Parallel.Invoke(() =>
+            {
+                string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/create-order";
+                string content = '{' + $"\r\n  \"email\": \"{email}\",\r\n  \"address\": \"{address}\",\r\n  \"products\": {productsID}\r\n" + '}';
+                user = HTTPConnection<UserRoot>.Post(url, content, header).Result;
             });
             if (user != null)
                 return user.user;

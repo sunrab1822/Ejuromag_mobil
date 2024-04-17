@@ -10,7 +10,7 @@
     </ContentPage.Behaviors>
     <Grid RowDefinitions="*,4*">
         <Border Grid.Row="0" HeightRequest="80" WidthRequest="220" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
-            <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}" SelectedItem="{SelectedCategory}"/>
+            <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}" SelectedIndex="{Binding CategoryID}"/>
         </Border>
 
         <CollectionView Grid.Row="1" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" SelectionChangedCommand="{Binding NavigateToDetailsCommand}" BackgroundColor="#1493ca">

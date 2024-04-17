@@ -19,12 +19,12 @@
 
         <StackLayout Grid.Column="0" Grid.Row="1" HeightRequest="30">
             <Label Text="Manufacturer: "/>
-            <Label />
+            <Label Text="{Binding SelectedProduct.manufacturer_id}"/>
         </StackLayout>
 
         <StackLayout Grid.Column="0" Grid.Row="2" HeightRequest="30">
-            <Label Text="Brand: "/>
-            <Label />
+            <Label Text="Category: "/>
+            <Label Text="{Binding SelectedProduct.category_id}"/>
         </StackLayout>
 
         <StackLayout Grid.Column="0" Grid.Row="3" Orientation="Horizontal" HeightRequest="30">
@@ -39,6 +39,6 @@
             </Border>
         </StackLayout>
 
-        <Button Text="Add to cart" Grid.Row="5" Grid.ColumnSpan="2" HeightRequest="40" WidthRequest="150" CornerRadius="10" HorizontalOptions="Center"/>
+        <Button Text="Add to cart" Grid.Row="5" Grid.ColumnSpan="2" HeightRequest="40" WidthRequest="150" CornerRadius="10" HorizontalOptions="Center" Command="{Binding AddToCartCommand}"/>
     </Grid>
 </ContentPage>

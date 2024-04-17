@@ -30,17 +30,17 @@ namespace Ejuromag.ViewModel
         {
             if (String.IsNullOrWhiteSpace(UserName))
             {
-                Shell.Current.DisplayAlert("Hiba!", "Nem adott meg felhasználónevet!", "OK");
+                Shell.Current.DisplayAlert("Hiba!", "Please fill the name field!", "OK");
                 return;
             }
             if ( Email == null ||!Email.Contains("@"))
             {
-                Shell.Current.DisplayAlert("Hiba!", "Nem megfelelő az email cím formátuma!", "OK");
+                Shell.Current.DisplayAlert("Hiba!", "Email is incorrect!", "OK");
                 return;
             }
             if(Password.Length < 8 && Password != Password2)
             {
-                Shell.Current.DisplayAlert("Hiba!", "A jelszó nem megfelelő!", "OK");
+                Shell.Current.DisplayAlert("Hiba!", "Password is incorrect!", "OK");
                 return;
             }
             User user = ApiFunctions.Register(UserName, Email, Password, Password2);
@@ -51,7 +51,7 @@ namespace Ejuromag.ViewModel
             }
             else
             {
-                Shell.Current.DisplayAlert("Hiba!", "Sikertelen regisztráció!", "OK");
+                Shell.Current.DisplayAlert("Hiba!", "Registration failed!", "OK");
             }
         }
     }
