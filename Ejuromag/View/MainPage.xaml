@@ -2,10 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             xmlns:tool="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              x:Class="Ejuromag.View.MainPage"
              Title="Home"
              BackgroundImageSource="background.webp">
     <ContentPage.Behaviors>
+        <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
         <toolkit:StatusBarBehavior StatusBarColor="{StaticResource Primary}"/>
     </ContentPage.Behaviors>
     <Shell.TitleView>
@@ -15,8 +17,8 @@
     </Shell.TitleView>
     <ContentPage.ToolbarItems>
         <ToolbarItem IconImageSource="{StaticResource Key=Cart}" Order="Default" Command="{Binding NavigateToCommand}" CommandParameter="CartView"/>
-        <ToolbarItem x:Name="login_TLB" Text="Login" Order="Primary" Command="{Binding NavigateToCommand}" CommandParameter="LoginView"/>
-        <ToolbarItem x:Name="logout_TLB" Text="Logout" Order="Secondary"/>
+        <ToolbarItem x:Name="login_TLB" Text="{Binding LoginOrName}" Order="Primary" Command="{Binding NavigateToCommand}" CommandParameter="LoginView"/>
+        <ToolbarItem x:Name="logout_TLB" Text="Logout" Order="Secondary" Command="{Binding LogoutCommand}"/>
     </ContentPage.ToolbarItems>
 
     <Grid RowDefinitions="0.25*,0.25*,1*,0.25*">
@@ -68,8 +70,8 @@
                     </Style>
                 </Grid.Resources>
                 <StackLayout Grid.Column="0">
-                    <Label Text="Order and Delivery"/>
-                    <Label Text="About us"/>
+                    <Label Text="Rendelés és szállítás"/>
+                    <Label Text="Rólunk"/>
                     <Label Text="@2024 - "/>
                 </StackLayout>
                 <StackLayout Grid.Column="1" Orientation="Horizontal">

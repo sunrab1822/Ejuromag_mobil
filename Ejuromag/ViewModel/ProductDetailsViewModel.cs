@@ -2,6 +2,7 @@
 using CommunityToolkit.Mvvm.Input;
 using Ejuromag.API;
 using Ejuromag.Models;
+using Ejuromag.View;
 
 namespace Ejuromag.ViewModel
 {
@@ -29,21 +30,22 @@ namespace Ejuromag.ViewModel
         [ObservableProperty]
         Manufacturer manufacturer;
 
-        //partial void OnSelectedProductChanged(Product value)
-        //{
-        //    Categories = ApiFunctions.GetCategories();
-        //    Manufacturers = ApiFunctions.GetManufacturers();
-        //    if (SelectedProduct.category_id == Category.id && SelectedProduct.manufacturer_id == Manufacturer.id)
-        //    {
-        //        CategoryName = value.name;
-        //        ManufacturerName = value.name;
-        //    }
-        //}
-
         [RelayCommand]
+        async void Appearing()
+        {
+            Categories = ApiFunctions.GetCategories().ToList();
+            Manufacturers = ApiFunctions.GetManufacturers().ToList();
+            ManufacturerName = Manufacturers[SelectedProduct.manufacturer_id - 1].name;
+            CategoryName = Categories[SelectedProduct.category_id].categoryName;
+
+        }
+
+       [RelayCommand]
         Task AddToCart()
         {
+            SecureStorage.SetAsync("CartProducts", $"{SelectedProduct.picture};{SelectedProduct.name};{SelectedProduct.price};{1};{SelectedProduct.price}");
             return Shell.Current.GoToAsync("CartView");
+            }
         }
     }
-}
+

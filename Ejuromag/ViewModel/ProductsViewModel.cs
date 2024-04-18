@@ -37,16 +37,13 @@ namespace Ejuromag.ViewModel
         [RelayCommand]
         Task NavigateToDetails()
         {
-            if (SelectedProduct != null)
-            {
-                Dictionary<string, object> navigationParameter = new Dictionary<string, object>
+            Dictionary<string, object> navigationParameter = new Dictionary<string, object>
                 {
                     {"Product", SelectedProduct}
                 };
-                return Shell.Current.GoToAsync("ProductDetailsView", true, navigationParameter);
-            }
-            return Shell.Current.DisplayAlert("Hiba!", "A kiválasztott termék adatai nem jeleníthetőek meg!", "Ok");
-        }
+            return Shell.Current.GoToAsync(nameof(ProductDetailsView), true, navigationParameter);
+
+            } 
 
         [RelayCommand]
         async void Appearing()

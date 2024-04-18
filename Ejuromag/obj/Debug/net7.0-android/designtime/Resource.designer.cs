@@ -21678,19 +21678,16 @@ namespace Ejuromag
 			public const int socialmediaslides33 = 2131165396;
 			
 			// aapt resource value: 0x7F0700D5
-			public const int splash = 2131165397;
+			public const int test_level_drawable = 2131165397;
 			
 			// aapt resource value: 0x7F0700D6
-			public const int test_level_drawable = 2131165398;
+			public const int tooltip_frame_dark = 2131165398;
 			
 			// aapt resource value: 0x7F0700D7
-			public const int tooltip_frame_dark = 2131165399;
+			public const int tooltip_frame_light = 2131165399;
 			
 			// aapt resource value: 0x7F0700D8
-			public const int tooltip_frame_light = 2131165400;
-			
-			// aapt resource value: 0x7F0700D9
-			public const int vueperslides1 = 2131165401;
+			public const int vueperslides1 = 2131165400;
 			
 			static Drawable()
 			{
@@ -23921,28 +23918,16 @@ namespace Ejuromag
 		{
 			
 			// aapt resource value: 0x7F0D0000
-			public const int appicon = 2131558400;
+			public const int minilogo = 2131558400;
 			
 			// aapt resource value: 0x7F0D0001
-			public const int appicon_background = 2131558401;
+			public const int minilogo_background = 2131558401;
 			
 			// aapt resource value: 0x7F0D0002
-			public const int appicon_foreground = 2131558402;
+			public const int minilogo_foreground = 2131558402;
 			
 			// aapt resource value: 0x7F0D0003
-			public const int appicon_round = 2131558403;
-			
-			// aapt resource value: 0x7F0D0004
-			public const int minilogo = 2131558404;
-			
-			// aapt resource value: 0x7F0D0005
-			public const int minilogo_background = 2131558405;
-			
-			// aapt resource value: 0x7F0D0006
-			public const int minilogo_foreground = 2131558406;
-			
-			// aapt resource value: 0x7F0D0007
-			public const int minilogo_round = 2131558407;
+			public const int minilogo_round = 2131558403;
 			
 			static Mipmap()
 			{

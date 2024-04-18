@@ -72,17 +72,17 @@ namespace Ejuromag.API
             return null;
         }
 
-        public static User Logout(string header)
+        public static MessageRoot Logout(string header)
         {
-            UserRoot user = null;
+            MessageRoot message = null;
             Parallel.Invoke(() =>
             {
                 string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/logout";
                 string content = "{ }";
-                user = HTTPConnection<UserRoot>.Post(url, content, header).Result;
+                message = HTTPConnection<MessageRoot>.Post(url, content, header).Result;
             });
-            if (user != null)
-                return user.user;
+            if (message != null)
+                return message;
             return null;
         }
 

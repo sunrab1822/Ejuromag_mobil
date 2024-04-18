@@ -2,8 +2,12 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="Ejuromag.View.ProductDetailsView"
+             xmlns:tool="clr-namespace:CommunityToolkit.Maui.Behaviors;assembly=CommunityToolkit.Maui"
              Title="{Binding SelectedProduct.name}"
              BackgroundImageSource="background.webp">
+    <ContentPage.Behaviors>
+        <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
+    </ContentPage.Behaviors>
     <ContentPage.Resources>
         <Style TargetType="Label">
             <Setter Property="TextColor" Value="White"/>
@@ -19,12 +23,12 @@
 
         <StackLayout Grid.Column="0" Grid.Row="1" HeightRequest="30">
             <Label Text="Manufacturer: "/>
-            <Label Text="{Binding SelectedProduct.manufacturer_id}"/>
+            <Label Text="{Binding ManufacturerName}"/>
         </StackLayout>
 
         <StackLayout Grid.Column="0" Grid.Row="2" HeightRequest="30">
             <Label Text="Category: "/>
-            <Label Text="{Binding SelectedProduct.category_id}"/>
+            <Label Text="{Binding CategoryName}"/>
         </StackLayout>
 
         <StackLayout Grid.Column="0" Grid.Row="3" Orientation="Horizontal" HeightRequest="30">

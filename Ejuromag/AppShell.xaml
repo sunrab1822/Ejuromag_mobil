@@ -16,27 +16,27 @@
     <ShellContent
     Title="Home"
     ContentTemplate="{DataTemplate views:MainPage}"
-    Route="MainPage" />
+    />
 
-    <FlyoutItem Title="About Us">
+    <FlyoutItem Title="Products">
         <Tab>
-            <ShellContent ContentTemplate="{DataTemplate views:AboutView}"/>
+            <ShellContent ContentTemplate="{DataTemplate views:ProductsView}"/>
         </Tab>
     </FlyoutItem> 
     
     <FlyoutItem 
-    Title="Order/Delivery">
+    Title="About us">
         <Tab>
             <ShellContent
-            ContentTemplate="{DataTemplate views:OrderAndDeliveryView}"/>
+            ContentTemplate="{DataTemplate views:AboutView}"/>
         </Tab>
     </FlyoutItem>
     
     <FlyoutItem 
-        Title="Products">
+        Title="Order/Delivery">
         <Tab>
             <ShellContent
-            ContentTemplate="{DataTemplate views:ProductsView}"/>
+            ContentTemplate="{DataTemplate views:OrderAndDeliveryView}"/>
         </Tab>
     </FlyoutItem>
 
