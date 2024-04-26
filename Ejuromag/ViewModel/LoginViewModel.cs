@@ -61,7 +61,7 @@ namespace Ejuromag.ViewModel
             {
                 SecureStorage.Default.SetAsync("userData", $"{user.user.name};{user.user.email};{Password};{user.token}");
                 SecureStorage.SetAsync("isLoggedIn", $"{true}");
-                Shell.Current.GoToAsync("//MainPage");
+                Shell.Current.GoToAsync("..");
             }
             else
             {

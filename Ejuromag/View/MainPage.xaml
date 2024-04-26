@@ -16,8 +16,8 @@
         </Grid>
     </Shell.TitleView>
     <ContentPage.ToolbarItems>
-        <ToolbarItem IconImageSource="{StaticResource Key=Cart}" Order="Default" Command="{Binding NavigateToCommand}" CommandParameter="CartView"/>
-        <ToolbarItem x:Name="login_TLB" Text="{Binding LoginOrName}" Order="Primary" Command="{Binding NavigateToCommand}" CommandParameter="LoginView"/>
+        <ToolbarItem IconImageSource="{StaticResource Key=Cart}" Order="Default" Command="{Binding NavigateToCartCommand}" CommandParameter="CartView"/>
+        <ToolbarItem x:Name="login_TLB" Text="{Binding LoginOrName}" Order="Primary" Command="{Binding NavigateToLoginCommand}" CommandParameter="LoginView"/>
         <ToolbarItem x:Name="logout_TLB" Text="Logout" Order="Secondary" Command="{Binding LogoutCommand}"/>
     </ContentPage.ToolbarItems>
 

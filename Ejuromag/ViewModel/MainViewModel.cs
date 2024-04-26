@@ -23,9 +23,29 @@ namespace Ejuromag.ViewModel
         [ObservableProperty]
         bool logoutIsEnabled;
 
+        [RelayCommand]
+         async void NavigateToCart(string destination)
+        {
+            if (SecureStorage.GetAsync("isLoggedIn").Result == $"{true}")
+            {
+                if(SecureStorage.GetAsync("CartProducts").Result != null)
+                {
+                    await Shell.Current.GoToAsync($"{destination}");
+                }
+                else
+                {
+                   await Shell.Current.DisplayAlert("Error", "There are no items in the cart!", "OK");
+                }
+                
+            }
+            else
+            {
+                await Shell.Current.DisplayAlert("Error", "You can't see cart without logging in!", "OK");
+            }
+        }
 
         [RelayCommand]
-        void NavigateTo(string destination)
+        void NavigateToLogin(string destination)
         {
             Shell.Current.GoToAsync($"{destination}");
         }
@@ -50,6 +70,7 @@ namespace Ejuromag.ViewModel
             string UserData = SecureStorage.Default.GetAsync("userData").Result;
             if (UserData != null)
             {
+                
                 LogoutIsEnabled = true;
                 string[] slices = UserData.Split(";");
                 LoginOrName = slices[0];

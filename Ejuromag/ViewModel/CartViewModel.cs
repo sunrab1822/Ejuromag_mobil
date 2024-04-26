@@ -61,11 +61,11 @@ namespace Ejuromag.ViewModel
             if(int.Parse(ProductNumber)== 1)
             {
                 SecureStorage.Remove("CartProducts");
-                ProductNumber = null;
-                ProductStaticPrice = null;
-                ProductPrice = null;
-                ProductName = null;
-                ProductImage = null;
+                ProductNumber = "0";
+                ProductStaticPrice = "0";
+                ProductPrice = "0";
+                ProductName = "";
+                ProductImage = "";
             }
             else
             {
@@ -97,6 +97,12 @@ namespace Ejuromag.ViewModel
                 }
             }
             return Shell.Current.DisplayAlert("Error", "There are no products in the cart!", "OK");
+        }
+
+        [RelayCommand]
+        Task GoToHome()
+        {
+            return Shell.Current.GoToAsync("../../..");
         }
     }
 }

@@ -10,6 +10,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Ejuromag.ViewModel.CartViewModel.CartProducts">
             <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.cartProducts"/>
@@ -53,6 +54,12 @@
         <member name="P:Ejuromag.ViewModel.CartViewModel.SetOrderCommand">
             <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.SetOrder"/>.</summary>
         </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.goToHomeCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.GoToHomeCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.GoToHomeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.GoToHome"/>.</summary>
+        </member>
         <member name="T:Ejuromag.ViewModel.LoginViewModel">
             <inheritdoc/>
             <inheritdoc/>
@@ -89,6 +96,7 @@
             <inheritdoc/>
             <inheritdoc/>
             <inheritdoc/>
+            <inheritdoc/>
         </member>
         <member name="P:Ejuromag.ViewModel.MainViewModel.LoginOrName">
             <inheritdoc cref="F:Ejuromag.ViewModel.MainViewModel.loginOrName"/>
@@ -99,11 +107,17 @@
         <member name="P:Ejuromag.ViewModel.MainViewModel.LogoutIsEnabled">
             <inheritdoc cref="F:Ejuromag.ViewModel.MainViewModel.logoutIsEnabled"/>
         </member>
-        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToCommand">
-            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToCommand"/>.</summary>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToCartCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToCartCommand"/>.</summary>
         </member>
-        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToCommand">
-            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateTo(System.String)"/>.</summary>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateToCart(System.String)"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToLoginCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToLoginCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateToLogin(System.String)"/>.</summary>
         </member>
         <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToProductsCommand">
             <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToProductsCommand"/>.</summary>
