@@ -88,6 +88,12 @@ namespace Ejuromag.ViewModel
                 if (SecureStorage.GetAsync("isLoggedIn").Result == $"{true}")
                 {
                     Shell.Current.DisplayAlert("Order", "We recieved your order!", "OK");
+                    SecureStorage.Remove("CartProducts");
+                    ProductNumber = "0";
+                    ProductStaticPrice = "0";
+                    ProductPrice = "0";
+                    ProductName = "";
+                    ProductImage = "";
                     return Shell.Current.GoToAsync("MainPage");
                 }
                 else

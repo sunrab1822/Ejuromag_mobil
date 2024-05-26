@@ -59,10 +59,24 @@
                     <Label Text="Rendelés összegzése" FontSize="Large"/>
                     <Line Stroke="black"/>
                     <StackLayout Grid.Row="1">
-                        <Grid RowDefinitions="0.50*,1.25*" VerticalOptions="Center" HorizontalOptions="Start">
-                            <StackLayout Grid.Row="1" Orientation="Horizontal">
-                                <Label Text="Végösszeg forintban: " WidthRequest="150"/>
+                        <Grid RowDefinitions="*,*,1.25*" VerticalOptions="Center" HorizontalOptions="Start">
+                            <StackLayout Orientation="Horizontal" Margin="15">
+                                <Entry Text="Name" WidthRequest="100" Margin="5"/>
+                                <Entry Text="Email" WidthRequest="150" Margin="5"/>
+                            </StackLayout>
+                            <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                                <Entry Text="Phone number" WidthRequest="150" Margin="5"/>
+                                <Picker x:Name="delivery_PCK" Title="delivery options" WidthRequest="150" BackgroundColor="Black" Margin="5" TextColor="White">
+                                    <Picker.Items>
+                                        <x:String>Packeta</x:String>
+                                        <x:String>Magyar Posta</x:String>
+                                    </Picker.Items>
+                                </Picker>
+                            </StackLayout>
+                            <StackLayout Grid.Row="2" Orientation="Horizontal">
+                                <Label Text="Végösszeg forintban: " WidthRequest="150" TextDecorations="Underline" Margin="0,0,5,0"/>
                                 <Entry Text="{Binding ProductPrice}" WidthRequest="120"/>
+                                <Label Text="Ft" FontAttributes="Bold"/>
                             </StackLayout>
                         </Grid>
                     </StackLayout>
