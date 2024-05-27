@@ -1,0 +1,514 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Ejuromag</name>
+    </assembly>
+    <members>
+        <member name="T:Ejuromag.ViewModel.CartViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.CartProducts">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.cartProducts"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.ProductPrice">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.productPrice"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.ProductImage">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.productImage"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.ProductName">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.productName"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.ProductNumber">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.productNumber"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.ProductStaticPrice">
+            <inheritdoc cref="F:Ejuromag.ViewModel.CartViewModel.productStaticPrice"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.plusPieceCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.PlusPieceCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.PlusPieceCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.PlusPiece"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.minusPieceCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.MinusPieceCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.MinusPieceCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.MinusPiece"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.setOrderCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.SetOrderCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.SetOrderCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.SetOrder"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.CartViewModel.goToHomeCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.CartViewModel.GoToHomeCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.CartViewModel.GoToHomeCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.CartViewModel.GoToHome"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.LoginViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.Email">
+            <inheritdoc cref="F:Ejuromag.ViewModel.LoginViewModel.email"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.Password">
+            <inheritdoc cref="F:Ejuromag.ViewModel.LoginViewModel.password"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.LoginViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.LoginViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.LoginViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.LoginViewModel._isLoggedInCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.LoginViewModel.isLoggedInCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.isLoggedInCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.LoginViewModel.isLoggedIn"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.LoginViewModel.loginCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.LoginViewModel.LoginCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.LoginViewModel.LoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.LoginViewModel.Login"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.MainViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.LoginOrName">
+            <inheritdoc cref="F:Ejuromag.ViewModel.MainViewModel.loginOrName"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.Usertoken">
+            <inheritdoc cref="F:Ejuromag.ViewModel.MainViewModel.usertoken"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.LogoutIsEnabled">
+            <inheritdoc cref="F:Ejuromag.ViewModel.MainViewModel.logoutIsEnabled"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToCartCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToCartCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateToCart(System.String)"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToLoginCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToLoginCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToLoginCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateToLogin(System.String)"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.navigateToProductsCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.NavigateToProductsCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.NavigateToProductsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand`1"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.NavigateToProducts(System.String)"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.MainViewModel.logoutCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.MainViewModel.LogoutCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.MainViewModel.LogoutCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.MainViewModel.Logout"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.PasswordResetViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.PasswordResetViewModel.Email">
+            <inheritdoc cref="F:Ejuromag.ViewModel.PasswordResetViewModel.email"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.PasswordResetViewModel.resetPasswordSendCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.PasswordResetViewModel.ResetPasswordSendCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.PasswordResetViewModel.ResetPasswordSendCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.PasswordResetViewModel.ResetPasswordSend"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.ProductDetailsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.SelectedProduct">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.selectedProduct"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.Category">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.category"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.CategoryName">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.categoryName"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.ManufacturerName">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.manufacturerName"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.Categories">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.categories"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.Manufacturers">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.manufacturers"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.Manufacturer">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductDetailsViewModel.manufacturer"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductDetailsViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductDetailsViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductDetailsViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductDetailsViewModel.addToCartCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductDetailsViewModel.AddToCartCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductDetailsViewModel.AddToCartCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductDetailsViewModel.AddToCart"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.ProductsViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.Products">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.products"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.ProductsToShow">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.productsToShow"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.Categories">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.categories"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.SelectedProduct">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.selectedProduct"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.ProductCategory">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.productCategory"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.CategoryID">
+            <inheritdoc cref="F:Ejuromag.ViewModel.ProductsViewModel.categoryID"/>
+        </member>
+        <member name="M:Ejuromag.ViewModel.ProductsViewModel.OnProductCategoryChanged(Ejuromag.Models.Category)">
+            <summary>Executes the logic for when <see cref="P:Ejuromag.ViewModel.ProductsViewModel.ProductCategory"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:Ejuromag.ViewModel.ProductsViewModel.ProductCategory"/> is changed.</remarks>
+        </member>
+        <member name="M:Ejuromag.ViewModel.ProductsViewModel.OnCategoryIDChanged(System.Int32)">
+            <summary>Executes the logic for when <see cref="P:Ejuromag.ViewModel.ProductsViewModel.CategoryID"/> just changed.</summary>
+            <param name="value">The new property value that was set.</param>
+            <remarks>This method is invoked right after the value of <see cref="P:Ejuromag.ViewModel.ProductsViewModel.CategoryID"/> is changed.</remarks>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductsViewModel.navigateToDetailsCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetailsCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetailsCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IAsyncRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductsViewModel.NavigateToDetails"/>.</summary>
+        </member>
+        <member name="F:Ejuromag.ViewModel.ProductsViewModel.appearingCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.ProductsViewModel.AppearingCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.ProductsViewModel.AppearingCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.ProductsViewModel.Appearing"/>.</summary>
+        </member>
+        <member name="T:Ejuromag.ViewModel.RegisterViewModel">
+            <inheritdoc/>
+            <inheritdoc/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.RegisterViewModel.UserName">
+            <inheritdoc cref="F:Ejuromag.ViewModel.RegisterViewModel.userName"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.RegisterViewModel.Email">
+            <inheritdoc cref="F:Ejuromag.ViewModel.RegisterViewModel.email"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.RegisterViewModel.Password">
+            <inheritdoc cref="F:Ejuromag.ViewModel.RegisterViewModel.password"/>
+        </member>
+        <member name="P:Ejuromag.ViewModel.RegisterViewModel.Password2">
+            <inheritdoc cref="F:Ejuromag.ViewModel.RegisterViewModel.password2"/>
+        </member>
+        <member name="F:Ejuromag.ViewModel.RegisterViewModel.registerCommand">
+            <summary>The backing field for <see cref="P:Ejuromag.ViewModel.RegisterViewModel.RegisterCommand"/>.</summary>
+        </member>
+        <member name="P:Ejuromag.ViewModel.RegisterViewModel.RegisterCommand">
+            <summary>Gets an <see cref="T:CommunityToolkit.Mvvm.Input.IRelayCommand"/> instance wrapping <see cref="M:Ejuromag.ViewModel.RegisterViewModel.Register"/>.</summary>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Button.TextColorTo(Microsoft.Maui.Controls.Button,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_DatePicker.TextColorTo(Microsoft.Maui.Controls.DatePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Editor.TextColorTo(Microsoft.Maui.Controls.Editor,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Entry.TextColorTo(Microsoft.Maui.Controls.Entry,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Label.TextColorTo(Microsoft.Maui.Controls.Label,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_Picker.TextColorTo(Microsoft.Maui.Controls.Picker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_RadioButton.TextColorTo(Microsoft.Maui.Controls.RadioButton,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_SearchBar.TextColorTo(Microsoft.Maui.Controls.SearchBar,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="M:Microsoft.Maui.Controls.ColorAnimationExtensions_TimePicker.TextColorTo(Microsoft.Maui.Controls.TimePicker,Microsoft.Maui.Graphics.Color,System.UInt32,System.UInt32,Microsoft.Maui.Easing)">
+            <summary>
+            Animates the TextColor of an <see cref = "T:Microsoft.Maui.ITextStyle"/> to the given color
+            </summary>
+            <param name = "element"></param>
+            <param name = "color">The target color to animate the <see cref = "P:Microsoft.Maui.ITextStyle.TextColor"/> to</param>
+            <param name = "rate">The time, in milliseconds, between the frames of the animation</param>
+            <param name = "length">The duration, in milliseconds, of the animation</param>
+            <param name = "easing">The easing function to be used in the animation</param>
+            <returns>Value indicating if the animation completed successfully or not</returns>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CartProducts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CartProducts" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductStaticPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductStaticPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LoginOrName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LoginOrName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Usertoken">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Usertoken" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.LogoutIsEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "LogoutIsEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.SelectedProduct">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "SelectedProduct" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ManufacturerName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ManufacturerName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Manufacturers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Manufacturers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Manufacturer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Manufacturer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductsToShow">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductsToShow" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.ProductCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "ProductCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.CategoryID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "CategoryID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangingArgs.Password2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangingEventArgs"/> instance for all "Password2" generated properties.</summary>
+        </member>
+        <member name="T:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs">
+            <summary>
+            A helper type providing cached, reusable <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instances
+            for all properties generated with <see cref="T:CommunityToolkit.Mvvm.ComponentModel.ObservablePropertyAttribute"/>.
+            </summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CartProducts">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CartProducts" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductImage">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductImage" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductNumber">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductNumber" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductStaticPrice">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductStaticPrice" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Email">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Email" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LoginOrName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LoginOrName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Usertoken">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Usertoken" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.LogoutIsEnabled">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "LogoutIsEnabled" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.SelectedProduct">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "SelectedProduct" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Category">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Category" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ManufacturerName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ManufacturerName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Categories">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Categories" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Manufacturers">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Manufacturers" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Manufacturer">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Manufacturer" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Products">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Products" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductsToShow">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductsToShow" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.ProductCategory">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "ProductCategory" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.CategoryID">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "CategoryID" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.UserName">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "UserName" generated properties.</summary>
+        </member>
+        <member name="F:CommunityToolkit.Mvvm.ComponentModel.__Internals.__KnownINotifyPropertyChangedArgs.Password2">
+            <summary>The cached <see cref="T:System.ComponentModel.PropertyChangedEventArgs"/> instance for all "Password2" generated properties.</summary>
+        </member>
+    </members>
+</doc>

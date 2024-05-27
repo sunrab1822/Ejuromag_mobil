@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\ADMIN\\Desktop\\Új mappa (2)\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj": {}
+    "D:\\Ejuromag_mobil-main\\Ejuromag\\Ejuromag.csproj": {}
   },
   "projects": {
-    "D:\\Users\\ADMIN\\Desktop\\Új mappa (2)\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj": {
+    "D:\\Ejuromag_mobil-main\\Ejuromag\\Ejuromag.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\ADMIN\\Desktop\\Új mappa (2)\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
+        "projectUniqueName": "D:\\Ejuromag_mobil-main\\Ejuromag\\Ejuromag.csproj",
         "projectName": "Ejuromag",
-        "projectPath": "D:\\Users\\ADMIN\\Desktop\\Új mappa (2)\\Ejuromag_mobil\\Ejuromag\\Ejuromag.csproj",
-        "packagesPath": "C:\\Users\\ADMIN\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\ADMIN\\Desktop\\Új mappa (2)\\Ejuromag_mobil\\Ejuromag\\obj\\",
+        "projectPath": "D:\\Ejuromag_mobil-main\\Ejuromag\\Ejuromag.csproj",
+        "packagesPath": "C:\\Users\\Szergely\\.nuget\\packages\\",
+        "outputPath": "D:\\Ejuromag_mobil-main\\Ejuromag\\obj\\",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+          "D:\\Programok\\VisualStudioTools\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ADMIN\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Szergely\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -203,10 +203,6 @@
               "version": "[33.0.95, 33.0.95]"
             },
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
               "name": "Microsoft.Maui.Controls.Ref.android",
               "version": "[7.0.101, 7.0.101]"
             },
@@ -229,14 +225,6 @@
             {
               "name": "Microsoft.Maui.Essentials.Runtime.android",
               "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -256,7 +244,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-ios16.1": {
           "targetAlias": "net7.0-ios",
@@ -323,10 +311,6 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
               "name": "Microsoft.iOS.Ref",
               "version": "[16.4.7129, 16.4.7129]"
             },
@@ -357,14 +341,6 @@
             {
               "name": "Microsoft.Maui.Essentials.Runtime.ios",
               "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -384,7 +360,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-maccatalyst16.1": {
           "targetAlias": "net7.0-maccatalyst",
@@ -452,11 +428,11 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
+              "name": "Microsoft.MacCatalyst.Ref",
+              "version": "[16.4.7129, 16.4.7129]"
             },
             {
-              "name": "Microsoft.MacCatalyst.Ref",
+              "name": "Microsoft.MacCatalyst.Runtime.maccatalyst-arm64",
               "version": "[16.4.7129, 16.4.7129]"
             },
             {
@@ -486,14 +462,6 @@
             {
               "name": "Microsoft.Maui.Essentials.Runtime.maccatalyst",
               "version": "[7.0.101, 7.0.101]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
             }
           ],
           "frameworkReferences": {
@@ -513,7 +481,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         },
         "net7.0-windows10.0.19041": {
           "targetAlias": "net7.0-windows10.0.19041.0",
@@ -578,12 +546,8 @@
           "warn": true,
           "downloadDependencies": [
             {
-              "name": "Microsoft.AspNetCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
               "name": "Microsoft.AspNetCore.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.Maui.Controls.Ref.win",
@@ -610,28 +574,20 @@
               "version": "[7.0.101, 7.0.101]"
             },
             {
-              "name": "Microsoft.NETCore.App.Host.win-x64",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
+              "name": "Microsoft.NETCore.App.Crossgen2.win-x64",
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.NETCore.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             },
             {
               "name": "Microsoft.Windows.SDK.NET.Ref",
               "version": "[10.0.19041.31, 10.0.19041.31]"
             },
             {
-              "name": "Microsoft.WindowsDesktop.App.Ref",
-              "version": "[7.0.18, 7.0.18]"
-            },
-            {
               "name": "Microsoft.WindowsDesktop.App.Runtime.win-x64",
-              "version": "[7.0.18, 7.0.18]"
+              "version": "[7.0.17, 7.0.17]"
             }
           ],
           "frameworkReferences": {
@@ -651,7 +607,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.204\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -668,6 +624,9 @@
           "#import": []
         },
         "iossimulator-x64": {
+          "#import": []
+        },
+        "maccatalyst-arm64": {
           "#import": []
         },
         "maccatalyst-x64": {

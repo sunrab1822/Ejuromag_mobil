@@ -47,11 +47,12 @@ namespace Ejuromag.ViewModel
             if(user != null)
             {
                 SecureStorage.Default.SetAsync("userData", $"{UserName};{Email};{Password}");
+                UserName = Password = Password2 = Email = null;
                 Shell.Current.GoToAsync(nameof(LoginView));
             }
             else
             {
-                Shell.Current.DisplayAlert("Hiba!", "Registration failed!", "OK");
+                Shell.Current.DisplayAlert("Error!", "Registration failed!", "OK");
             }
         }
     }

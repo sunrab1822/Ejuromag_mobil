@@ -66,7 +66,7 @@
                             </StackLayout>
                             <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
                                 <Entry Text="Phone number" WidthRequest="150" Margin="5"/>
-                                <Picker x:Name="delivery_PCK" Title="delivery options" WidthRequest="150" BackgroundColor="Black" Margin="5" TextColor="White">
+                                <Picker x:Name="delivery_PCK" Title="delivery options" TitleColor="White" BackgroundColor="Black" WidthRequest="150" Margin="5" TextColor="White">
                                     <Picker.Items>
                                         <x:String>Packeta</x:String>
                                         <x:String>Magyar Posta</x:String>

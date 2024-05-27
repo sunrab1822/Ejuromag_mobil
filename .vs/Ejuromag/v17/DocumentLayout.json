@@ -1,53 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\",
+  "WorkspaceRootPath": "D:\\Ejuromag_mobil-main\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\viewmodel\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\view\\cartview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\cartview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\cartview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\view\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\viewmodel\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\cartviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\view\\orderanddeliveryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\orderanddeliveryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\cartview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\cartview.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\view\\productsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\productsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\api\\apifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\api\\apifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\appshell.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\api\\httpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\api\\httpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\appshell.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\mauiprogram.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\users\\admin\\desktop\\\u00FAj mappa (2)\\ejuromag_mobil\\ejuromag\\resources\\iconfonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\registerviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\viewmodel\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\productsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\loginviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\registerview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\viewmodel\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\viewmodel\\productdetailsviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\orderanddeliveryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\orderanddeliveryview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\aboutview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\view\\productsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\view\\productsview.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\api\\apifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\api\\apifunctions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\api\\httpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\api\\httpconnection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\models\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\resources\\styles\\styles.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|d:\\ejuromag_mobil-main\\ejuromag\\resources\\iconfonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{E76C67FA-3460-47ED-ABE9-6D132CAE492E}|Ejuromag\\Ejuromag.csproj|solutionrelative:ejuromag\\resources\\iconfonts.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -61,166 +93,299 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "RegisterViewModel.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\RegisterViewModel.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\ViewModel\\RegisterViewModel.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\RegisterViewModel.cs",
+              "RelativeToolTip": "Ejuromag\\ViewModel\\RegisterViewModel.cs",
+              "ViewState": "AQIAACYAAADAMzMzMzMrwCsAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:37:13.071Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "CartView.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\CartView.xaml",
+              "RelativeDocumentMoniker": "Ejuromag\\View\\CartView.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\CartView.xaml",
+              "RelativeToolTip": "Ejuromag\\View\\CartView.xaml",
+              "ViewState": "AQIAADsAAACAy8zMzMz8v0QAAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T14:38:13.904Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AppShell.xaml.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\AppShell.xaml.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\AppShell.xaml.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\AppShell.xaml.cs",
+              "RelativeToolTip": "Ejuromag\\AppShell.xaml.cs",
+              "ViewState": "AQIAAAcAAAAwAAAAAEAlwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:44:37.124Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\App.xaml.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\App.xaml.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\App.xaml.cs",
+              "RelativeToolTip": "Ejuromag\\App.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:44:41.679Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "RegisterView.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\RegisterView.xaml",
+              "RelativeDocumentMoniker": "Ejuromag\\View\\RegisterView.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\RegisterView.xaml",
+              "RelativeToolTip": "Ejuromag\\View\\RegisterView.xaml",
+              "ViewState": "AQIAAB4AAACAMzMzMzMbwCMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-05-26T15:36:17.909Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductDetailsViewModel.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\ProductDetailsViewModel.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\ViewModel\\ProductDetailsViewModel.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\ProductDetailsViewModel.cs",
+              "RelativeToolTip": "Ejuromag\\ViewModel\\ProductDetailsViewModel.cs",
+              "ViewState": "AQIAABsAAADAzMzMzEwVwCUAAAAsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:34:07.534Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "CartView.xaml.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\CartView.xaml.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\View\\CartView.xaml.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\CartView.xaml.cs",
+              "RelativeToolTip": "Ejuromag\\View\\CartView.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:29:46.419Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "CartViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\ViewModel\\CartViewModel.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\CartViewModel.cs",
               "RelativeDocumentMoniker": "Ejuromag\\ViewModel\\CartViewModel.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\ViewModel\\CartViewModel.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\CartViewModel.cs",
               "RelativeToolTip": "Ejuromag\\ViewModel\\CartViewModel.cs",
-              "ViewState": "AQIAAFAAAAAAAAAAAAAwwF4AAAAlAAAA",
+              "ViewState": "AQIAAB4AAABAEQAAAEAtwGAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-26T14:38:28.112Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "CartView.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\CartView.xaml",
-              "RelativeDocumentMoniker": "Ejuromag\\View\\CartView.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\CartView.xaml",
-              "RelativeToolTip": "Ejuromag\\View\\CartView.xaml",
-              "ViewState": "AQIAADMAAAAAAAAAAAAAAFAAAAAfAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-26T14:38:13.904Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "AboutView.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\AboutView.xaml",
-              "RelativeDocumentMoniker": "Ejuromag\\View\\AboutView.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\AboutView.xaml",
-              "RelativeToolTip": "Ejuromag\\View\\AboutView.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB8AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-23T09:17:00.557Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "OrderAndDeliveryView.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\OrderAndDeliveryView.xaml",
-              "RelativeDocumentMoniker": "Ejuromag\\View\\OrderAndDeliveryView.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\OrderAndDeliveryView.xaml",
-              "RelativeToolTip": "Ejuromag\\View\\OrderAndDeliveryView.xaml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-23T09:17:35.13Z"
+              "DocumentIndex": 6,
+              "Title": "MauiProgram.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\MauiProgram.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\MauiProgram.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\MauiProgram.cs",
+              "RelativeToolTip": "Ejuromag\\MauiProgram.cs",
+              "ViewState": "AQIAABkAAAAAzczMzMwmwBIAAABCAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-23T08:52:43.572Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
-              "Title": "ApiFunctions.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\API\\ApiFunctions.cs",
-              "RelativeDocumentMoniker": "Ejuromag\\API\\ApiFunctions.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\API\\ApiFunctions.cs",
-              "RelativeToolTip": "Ejuromag\\API\\ApiFunctions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAFAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:17:09.528Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Product.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Models\\Product.cs",
-              "RelativeDocumentMoniker": "Ejuromag\\Models\\Product.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Models\\Product.cs",
-              "RelativeToolTip": "Ejuromag\\Models\\Product.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:18:50.021Z"
+              "Title": "AppShell.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\AppShell.xaml",
+              "RelativeDocumentMoniker": "Ejuromag\\AppShell.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\AppShell.xaml",
+              "RelativeToolTip": "Ejuromag\\AppShell.xaml",
+              "ViewState": "AQIAABAAAABoZmZmZiYwwAsAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-23T09:36:23.27Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "AppShell.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\AppShell.xaml",
-              "RelativeDocumentMoniker": "Ejuromag\\AppShell.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\AppShell.xaml",
-              "RelativeToolTip": "Ejuromag\\AppShell.xaml",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAsAAAAvAAAA",
+              "Title": "ProductsViewModel.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\ProductsViewModel.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\ViewModel\\ProductsViewModel.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\ProductsViewModel.cs",
+              "RelativeToolTip": "Ejuromag\\ViewModel\\ProductsViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:42:54.036Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "LoginViewModel.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\LoginViewModel.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\ViewModel\\LoginViewModel.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\ViewModel\\LoginViewModel.cs",
+              "RelativeToolTip": "Ejuromag\\ViewModel\\LoginViewModel.cs",
+              "ViewState": "AQIAADkAAAAAZWZmZmYiwD8AAAA5AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-05-26T15:40:20.94Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "AboutView.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\AboutView.xaml",
+              "RelativeDocumentMoniker": "Ejuromag\\View\\AboutView.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\AboutView.xaml",
+              "RelativeToolTip": "Ejuromag\\View\\AboutView.xaml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAB8AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-23T09:36:23.27Z"
+              "WhenOpened": "2024-02-23T09:17:00.557Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 12,
+              "Title": "OrderAndDeliveryView.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\OrderAndDeliveryView.xaml",
+              "RelativeDocumentMoniker": "Ejuromag\\View\\OrderAndDeliveryView.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\OrderAndDeliveryView.xaml",
+              "RelativeToolTip": "Ejuromag\\View\\OrderAndDeliveryView.xaml",
+              "ViewState": "AQIAAAwAAAAAAAAAAABAPRQAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-02-23T09:17:35.13Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "ApiFunctions.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\API\\ApiFunctions.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\API\\ApiFunctions.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\API\\ApiFunctions.cs",
+              "RelativeToolTip": "Ejuromag\\API\\ApiFunctions.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:17:09.528Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\Models\\Product.cs",
+              "RelativeDocumentMoniker": "Ejuromag\\Models\\Product.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\Models\\Product.cs",
+              "RelativeToolTip": "Ejuromag\\Models\\Product.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-20T15:18:50.021Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
               "Title": "MainPage.xaml",
               "DocumentMoniker": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\MainPage.xaml",
               "ToolTip": "C:\\Users\\veress.martin\\Desktop\\Ejuromag\\Ejuromag\\MainPage.xaml",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA0AAABkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2024-02-06T09:40:51.82Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 16,
               "Title": "HTTPConnection.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\API\\HTTPConnection.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\API\\HTTPConnection.cs",
               "RelativeDocumentMoniker": "Ejuromag\\API\\HTTPConnection.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\API\\HTTPConnection.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\API\\HTTPConnection.cs",
               "RelativeToolTip": "Ejuromag\\API\\HTTPConnection.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABYAAAAYAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-20T15:20:51.227Z"
+              "WhenOpened": "2024-03-20T15:20:51.227Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 14,
               "Title": "ProductsView.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\ProductsView.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\ProductsView.xaml",
               "RelativeDocumentMoniker": "Ejuromag\\View\\ProductsView.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\View\\ProductsView.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\View\\ProductsView.xaml",
               "RelativeToolTip": "Ejuromag\\View\\ProductsView.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-03-20T13:47:31.396Z"
+              "WhenOpened": "2024-03-20T13:47:31.396Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 18,
               "Title": "Styles.xaml",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Resources\\Styles\\Styles.xaml",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\Resources\\Styles\\Styles.xaml",
               "RelativeDocumentMoniker": "Ejuromag\\Resources\\Styles\\Styles.xaml",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Resources\\Styles\\Styles.xaml",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\Resources\\Styles\\Styles.xaml",
               "RelativeToolTip": "Ejuromag\\Resources\\Styles\\Styles.xaml",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAB0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-02-23T08:26:29.353Z"
+              "WhenOpened": "2024-02-23T08:26:29.353Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "MauiProgram.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\MauiProgram.cs",
-              "RelativeDocumentMoniker": "Ejuromag\\MauiProgram.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\MauiProgram.cs",
-              "RelativeToolTip": "Ejuromag\\MauiProgram.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABCAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-23T08:52:43.572Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 19,
               "Title": "IconFonts.cs",
-              "DocumentMoniker": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Resources\\IconFonts.cs",
+              "DocumentMoniker": "D:\\Ejuromag_mobil-main\\Ejuromag\\Resources\\IconFonts.cs",
               "RelativeDocumentMoniker": "Ejuromag\\Resources\\IconFonts.cs",
-              "ToolTip": "D:\\Users\\ADMIN\\Desktop\\\u00DAj mappa (2)\\Ejuromag_mobil\\Ejuromag\\Resources\\IconFonts.cs",
+              "ToolTip": "D:\\Ejuromag_mobil-main\\Ejuromag\\Resources\\IconFonts.cs",
               "RelativeToolTip": "Ejuromag\\Resources\\IconFonts.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-23T08:28:45.673Z"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{34e76e81-ee4a-11d0-ae2e-00a0c90fffc3}"
             }
           ]
         }

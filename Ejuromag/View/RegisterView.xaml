@@ -27,13 +27,13 @@
         <StackLayout Margin="10" Grid.Row="2" Orientation="Horizontal">
             <Label Text="Password: " Grid.Column="0" WidthRequest="150"/>
             <Border>
-                <Entry Grid.Column="1" WidthRequest="130" Text="{Binding Password}"/>
+                <Entry IsPassword="True" Grid.Column="1" WidthRequest="130" Text="{Binding Password}"/>
             </Border>
         </StackLayout>
         <StackLayout Margin="10" Grid.Row="3" Orientation="Horizontal">
             <Label Text="Repeat password: " Grid.Column="0" WidthRequest="150"/>
             <Border>
-                <Entry Grid.Column="1" WidthRequest="130" Text="{Binding Password2}"/>
+                <Entry IsPassword="True" Grid.Column="1" WidthRequest="130" Text="{Binding Password2}"/>
             </Border>
         </StackLayout>
         <Button Margin="10" BackgroundColor="#026691" Text="Register" WidthRequest="120" HeightRequest="60" Grid.Row="4" Grid.ColumnSpan="2" Command="{Binding RegisterCommand}"/>
