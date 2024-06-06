@@ -8,6 +8,8 @@
         <Style TargetType="Label">
             <Setter Property="TextColor" Value="White"/>
             <Setter Property="FontFamily" Value="Justified"/>
+            <Setter Property="FontSize" Value="Subtitle"/>
+            <Setter Property="Margin" Value="5"/>
         </Style>
     </ContentPage.Resources>
 
@@ -17,7 +19,7 @@
                 <Label Text="Fizetési Módok:" FontSize="20" FontAttributes="Bold" TextDecorations="Underline"/>
                 <Label Text="Utánvét:" FontAttributes="Italic" Margin="0,5" TextDecorations="Underline"/>
                 <Label Text="áru ellenértékét a csomag kézbesítésekor kell megfizetni a futárnál. Ezzel a fizetési móddal a shop teljes kínálatának ellenértéke fizethető. A futárnál az utánvét összegét csak készpénzzel lehet fizetni, bankkártyával nem." FontAttributes="Italic" Margin="0,5"/>
-                <Label Text="Banki előreutalás:" FontAttributes="Italic" Margin="0,5"/>
+                <Label Text="Banki előreutalás:" FontAttributes="Italic" Margin="0,5" TextDecorations="Underline"/>
                 <Label Text="szeretne előreutalással fizetni, ezen igényét kérjük a megrendelés megjegyzés rovatában jelezze. A megrendelés feldolgozása után módosítjuk a fizetési módot. Az összes megrendelt termék központi raktárra érkezését követően proforma számlát küld a rendszer, amin minden, az utaláshoz szükséges adatot megtalál. Az összeg jóváírását követően a rendszer automatikusan elindítja a csomagot. A csomag kézbesítése legkésőbb a jóváírást követő második munkanapon esedékes. Tájékoztatjuk tisztelt vásárlóinkat, hogy minden esetben a vásárolt árunak megfelelő pontos számlát is küldünk, ezt kérni külön nem kell." FontAttributes="Italic" Margin="0,5"/>
                 <Label Text="Bankkártyás fizetés:" FontAttributes="Italic" Margin="0,5" TextDecorations="Underline"/>
                 <Label Text="A CardPay fizetés révén biztonságosan vásárolhat áruházunkban. A kiválasztott termékek megrendelése után a Vevőt a Tatra Bank biztosított weboldalára irányítjuk, ahol a bank által használt, titkosítással lebonyolított tranzakción keresztül fizethet bankkártyájával. A rendszer magyarországi bankok által kiadott VISA és MasterCard típusú kártyákat fogad el." FontAttributes="Italic" Margin="0,5"/>

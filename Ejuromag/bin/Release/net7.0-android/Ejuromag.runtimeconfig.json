@@ -12,15 +12,15 @@
       },
       {
         "name": "Microsoft.Maui.Core",
-        "version": "7.0.101"
+        "version": "**FromWorkload**"
       },
       {
         "name": "Microsoft.Maui.Controls",
-        "version": "7.0.101"
+        "version": "**FromWorkload**"
       },
       {
         "name": "Microsoft.Maui.Essentials",
-        "version": "7.0.101"
+        "version": "**FromWorkload**"
       }
     ],
     "configProperties": {
@@ -41,8 +41,8 @@
       "System.Runtime.InteropServices.EnableCppCLIHostActivation": false,
       "System.Runtime.Serialization.EnableUnsafeBinaryFormatterSerialization": false,
       "System.StartupHookProvider.IsSupported": false,
-      "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "System.Threading.Thread.EnableAutoreleasePool": false,
+      "System.Text.Encoding.EnableUnsafeUTF7Encoding": false,
       "Xamarin.Android.Net.UseNegotiateAuthentication": false
     }
   }

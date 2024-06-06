@@ -40,6 +40,14 @@
         </Tab>
     </FlyoutItem>
 
+    <FlyoutItem
+        Title="Advertisement">
+        <Tab>
+            <ShellContent
+                ContentTemplate="{DataTemplate views:SecretView}"/>
+        </Tab>
+    </FlyoutItem>
+
 
 
 

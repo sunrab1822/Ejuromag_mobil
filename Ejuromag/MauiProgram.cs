@@ -13,6 +13,7 @@ namespace Ejuromag
             builder
                 .UseMauiApp<App>()
                 .UseMauiCommunityToolkit()
+                .UseMauiCommunityToolkitMediaElement()
                 .ConfigureFonts(fonts =>
                 {
                     fonts.AddFont("OpenSans-Regular.ttf", "OpenSansRegular");
@@ -34,6 +35,7 @@ namespace Ejuromag
             builder.Services.AddSingleton<ProductsViewModel>();
             builder.Services.AddSingleton<ProductDetailsView>();
             builder.Services.AddSingleton<ProductDetailsViewModel>();
+            builder.Services.AddSingleton<SecretView>();
 
 #if DEBUG
 		builder.Logging.AddDebug();

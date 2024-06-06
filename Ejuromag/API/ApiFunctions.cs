@@ -40,6 +40,7 @@ namespace Ejuromag.API
                 string url = "https://bgs.jedlik.eu/ejuromag/Ejuromag/api/manufacturers";
                 manufacturers = HTTPConnection<ManufacturerRoot>.Get(url).Result.data.ToList();
             });
+            manufacturers.Insert(0, new Manufacturer() { id = 0, name = "Mind" });
             return manufacturers;
         }
 

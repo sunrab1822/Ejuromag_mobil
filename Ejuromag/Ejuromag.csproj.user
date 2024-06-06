@@ -3,7 +3,7 @@
   <PropertyGroup>
     <IsFirstTimeProjectOpen>False</IsFirstTimeProjectOpen>
     <ActiveDebugFramework>net7.0-android</ActiveDebugFramework>
-    <ActiveDebugProfile>OPPO CPH2371 (Android 13.0 - API 33)</ActiveDebugProfile>
+    <ActiveDebugProfile>Samsung SM-A325F (Android 13.0 - API 33)</ActiveDebugProfile>
     <SelectedPlatformGroup>PhysicalDevice</SelectedPlatformGroup>
   </PropertyGroup>
   <ItemGroup>
@@ -44,6 +44,9 @@
       <SubType>Designer</SubType>
     </MauiXaml>
     <MauiXaml Update="View\RegisterView.xaml">
+      <SubType>Designer</SubType>
+    </MauiXaml>
+    <MauiXaml Update="View\SecretView.xaml">
       <SubType>Designer</SubType>
     </MauiXaml>
   </ItemGroup>

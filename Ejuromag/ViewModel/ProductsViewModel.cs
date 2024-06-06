@@ -26,13 +26,22 @@ namespace Ejuromag.ViewModel
         public List<Category> categories;
 
         [ObservableProperty]
+        public List<Manufacturer> manufacturers;
+
+        [ObservableProperty]
         Product selectedProduct;
 
         [ObservableProperty]
         Category productCategory;
 
         [ObservableProperty]
+        Manufacturer productManufacturer;
+
+        [ObservableProperty]
         int categoryID;
+
+        [ObservableProperty]
+        int manufactID;
 
         [RelayCommand]
         Task NavigateToDetails()
@@ -48,9 +57,10 @@ namespace Ejuromag.ViewModel
         [RelayCommand]
         async void Appearing()
         {
-            if (ProductCategory == null)
+            if (ProductCategory == null || ProductManufacturer == null)
             {
                 Categories = ApiFunctions.GetCategories().ToList();
+                Manufacturers = ApiFunctions.GetManufacturers().ToList();
                 Products = ApiFunctions.GetProducts().ToList();
             }
         }
@@ -66,11 +76,29 @@ namespace Ejuromag.ViewModel
             }
         }
 
+        partial void OnProductManufacturerChanged(Manufacturer value)
+        {
+            Manufacturers = ApiFunctions.GetManufacturers().ToList();
+            Products = ApiFunctions.GetProducts().ToList();
+            if (ProductManufacturer != null)
+            {
+                ManufactID = value.id;
+                Products = Products.Where(x => x.manufacturer_id == ProductManufacturer.id).ToList();
+            }
+        }
+
         partial void OnCategoryIDChanged(int value)
         {
             Products = ApiFunctions.GetProducts().ToList();
             if (value != 0)
                 Products = Products.Where(x => x.category_id == value).ToList();
+        }
+
+        partial void OnManufactIDChanged(int value)
+        {
+            Products = ApiFunctions.GetProducts().ToList();
+            if(value != 0)
+                Products = Products.Where(x => x.manufacturer_id == value).ToList();
         }
 
     }

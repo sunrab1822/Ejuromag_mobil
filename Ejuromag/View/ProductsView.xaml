@@ -8,12 +8,27 @@
     <ContentPage.Behaviors>
         <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
     </ContentPage.Behaviors>
-    <Grid RowDefinitions="*,4*">
-        <Border Grid.Row="0" HeightRequest="80" WidthRequest="220" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
-            <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select from the Categories" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}" SelectedIndex="{Binding CategoryID}"/>
+    <Grid RowDefinitions="0.75*,0.75*,4*" ColumnDefinitions="*,*">
+        <Border Grid.Row="0" Grid.Column="0" HeightRequest="80" WidthRequest="175" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
+            <Picker x:Name="category_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select Category" ItemsSource="{Binding Categories}" ItemDisplayBinding="{Binding categoryName}" SelectedIndex="{Binding CategoryID}"/>
+        </Border>
+        <Border Grid.Row="0" Grid.Column="1" HeightRequest="80" WidthRequest="175" HorizontalOptions="Start" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
+            <Picker x:Name="manufacturer_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select Manufacturer" ItemsSource="{Binding Manufacturers}" ItemDisplayBinding="{Binding name}" SelectedIndex="{Binding ManufactID}"/>
+        </Border>
+        <Border Grid.Row="1" Grid.ColumnSpan="2" HeightRequest="80" WidthRequest="175" HorizontalOptions="Center" VerticalOptions="Start" Margin="10" Stroke="#026691" StrokeThickness="5">
+            <Picker x:Name="price_PCK" Margin="5" BackgroundColor="#1493ca" Title="Select Price options">
+                <Picker.Items>
+                    <x:String>All</x:String>
+                    <x:String>less than 50000 Ft</x:String>
+                    <x:String>50000 Ft</x:String>
+                    <x:String>100000 Ft</x:String>
+                    <x:String>150000 Ft</x:String>
+                    <x:String>200000 Ft</x:String>
+                </Picker.Items>
+            </Picker>
         </Border>
 
-        <CollectionView Grid.Row="1" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" SelectionChangedCommand="{Binding NavigateToDetailsCommand}" BackgroundColor="#1493ca">
+        <CollectionView Grid.Row="2" Grid.ColumnSpan="3" ItemsSource="{Binding Products}" SelectionMode="Single" Margin="10" SelectedItem="{Binding SelectedProduct}" SelectionChangedCommand="{Binding NavigateToDetailsCommand}" BackgroundColor="#1493ca">
             <CollectionView.ItemTemplate>
                 <DataTemplate>
                     <Grid RowDefinitions="auto, auto" ColumnDefinitions="auto, auto">
