@@ -57,11 +57,14 @@ namespace Ejuromag.ViewModel
         [RelayCommand]
         async void Appearing()
         {
-            if (ProductCategory == null || ProductManufacturer == null)
+            if (ProductCategory == null)
             {
                 Categories = ApiFunctions.GetCategories().ToList();
-                Manufacturers = ApiFunctions.GetManufacturers().ToList();
                 Products = ApiFunctions.GetProducts().ToList();
+            }
+            if (ProductManufacturer == null)
+            {
+                Manufacturers = ApiFunctions.GetManufacturers().ToList();
             }
         }
 
@@ -91,14 +94,18 @@ namespace Ejuromag.ViewModel
         {
             Products = ApiFunctions.GetProducts().ToList();
             if (value != 0)
+            {
                 Products = Products.Where(x => x.category_id == value).ToList();
+            }
         }
 
         partial void OnManufactIDChanged(int value)
         {
             Products = ApiFunctions.GetProducts().ToList();
             if(value != 0)
+            {
                 Products = Products.Where(x => x.manufacturer_id == value).ToList();
+            }
         }
 
     }

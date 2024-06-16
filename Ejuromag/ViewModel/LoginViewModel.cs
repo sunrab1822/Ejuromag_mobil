@@ -33,12 +33,6 @@ namespace Ejuromag.ViewModel
         }
 
         [RelayCommand]
-        void isLoggedIn()
-        {
-            
-        }
-
-        [RelayCommand]
         void Login()
         {
             if (String.IsNullOrWhiteSpace(Email))

@@ -10,6 +10,14 @@ namespace Ejuromag.ViewModel
 {
     public partial class CartViewModel : ObservableObject
     {
+        [ObservableProperty]
+        string users;
+
+        [ObservableProperty]
+        string userEmail;
+
+        [ObservableProperty]
+        string userName;
 
         [ObservableProperty]
         string cartProducts;
@@ -39,6 +47,11 @@ namespace Ejuromag.ViewModel
             ProductPrice = slices[2];
             ProductNumber = slices[3];
             ProductStaticPrice = slices[4];
+
+            string Users = SecureStorage.Default.GetAsync("userData").Result;
+            string[] parts = Users.Split(";");
+            UserEmail = parts[1];
+            UserName = parts[0];
 
         }
 
@@ -94,6 +107,8 @@ namespace Ejuromag.ViewModel
                     ProductPrice = "0";
                     ProductName = "";
                     ProductImage = "";
+                    UserName = "";
+                    UserEmail = "";
                     return Shell.Current.GoToAsync("MainPage");
                 }
                 else

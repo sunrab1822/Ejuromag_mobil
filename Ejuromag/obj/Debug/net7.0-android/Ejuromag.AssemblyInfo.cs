@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Ejuromag")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+d3640e47e21c9daf5801b2f5fc42ec2894aac46f")]
 [assembly: System.Reflection.AssemblyProductAttribute("Ejuromag")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Ejuromag")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

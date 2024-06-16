@@ -14,4 +14,9 @@ public partial class ProductsView : ContentPage
 		this.BindingContext = vm;
 
 	}
+
+    private void price_PCK_SelectedIndexChanged(object sender, EventArgs e)
+    {
+
+    }
 }

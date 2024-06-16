@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:toolkit="http://schemas.microsoft.com/dotnet/2022/maui/toolkit"
+             x:Class="Ejuromag.View.AdvertisementView"
+             Title="AdvertisementView"
+             BackgroundColor="#026691">
+    <ScrollView>
+        <VerticalStackLayout>
+            <Label Text="Euronics" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+            <toolkit:MediaElement x:Name="one_ME" WidthRequest="400" HeightRequest="300" Source="embed://addone.mp4" Margin="5"/>
+            <Label Text="Emag" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+            <toolkit:MediaElement x:Name="two_ME" WidthRequest="400" HeightRequest="300" Source="embed://addtwo.mp4" Margin="5"/>
+            <Label Text="Media markt" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+            <toolkit:MediaElement x:Name="three_ME" WidthRequest="400" HeightRequest="300" Source="embed://addthree.mp4" Margin="5"/>
+        </VerticalStackLayout>
+    </ScrollView>
+    
+</ContentPage>

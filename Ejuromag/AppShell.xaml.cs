@@ -13,7 +13,7 @@ namespace Ejuromag
             Routing.RegisterRoute(nameof(CartView), typeof(CartView));
             Routing.RegisterRoute(nameof(MainPage), typeof(MainPage));
             Routing.RegisterRoute(nameof(ProductsView), typeof(ProductsView));
-            Routing.RegisterRoute(nameof(SecretView), typeof(SecretView));
+            Routing.RegisterRoute(nameof(AdvertisementView), typeof(AdvertisementView));
         }
         
     }

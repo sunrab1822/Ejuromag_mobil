@@ -56,6 +56,9 @@
 	  <None Remove="Resources\Images\NeedToRegisterSlides2.webp" />
 	  <None Remove="Resources\Images\SocialMediaSlides33.webp" />
 	  <None Remove="Resources\Images\vueperSlides1.webp" />
+	  <None Remove="Resources\Raw\addone.mp4" />
+	  <None Remove="Resources\Raw\addthree.mp4" />
+	  <None Remove="Resources\Raw\addtwo.mp4" />
 	</ItemGroup>
 
 	<ItemGroup>
@@ -68,6 +71,9 @@
 
 	<ItemGroup>
 	  <MauiXaml Update="View\AboutView.xaml">
+	    <Generator>MSBuild:Compile</Generator>
+	  </MauiXaml>
+	  <MauiXaml Update="View\AdvertisementView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\CartView.xaml">
@@ -86,9 +92,6 @@
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	  <MauiXaml Update="View\RegisterView.xaml">
-	    <Generator>MSBuild:Compile</Generator>
-	  </MauiXaml>
-	  <MauiXaml Update="View\SecretView.xaml">
 	    <Generator>MSBuild:Compile</Generator>
 	  </MauiXaml>
 	</ItemGroup>

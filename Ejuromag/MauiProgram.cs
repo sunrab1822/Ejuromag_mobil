@@ -35,7 +35,7 @@ namespace Ejuromag
             builder.Services.AddSingleton<ProductsViewModel>();
             builder.Services.AddSingleton<ProductDetailsView>();
             builder.Services.AddSingleton<ProductDetailsViewModel>();
-            builder.Services.AddSingleton<SecretView>();
+            builder.Services.AddSingleton<AdvertisementView>();
 
 #if DEBUG
 		builder.Logging.AddDebug();
