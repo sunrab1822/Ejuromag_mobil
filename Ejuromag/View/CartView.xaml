@@ -6,82 +6,77 @@
              Title="Cart"
              BackgroundImageSource="background.webp">
     <ContentPage.Behaviors>
-        <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
-    </ContentPage.Behaviors>
-    <Shell.BackButtonBehavior>
-        <BackButtonBehavior Command="{Binding GoToHomeCommand}"/>
-    </Shell.BackButtonBehavior>
-    <Grid RowDefinitions="0.25*,*,*,*">
-        <Grid.Resources>
-            <Style TargetType="Button">
-                <Setter Property="BorderColor" Value="Black"/>
-                <Setter Property="BorderWidth" Value="2"/>
-                <Setter Property="HeightRequest" Value="60"/>
-                <Setter Property="WidthRequest" Value="120"/>
-            </Style>
-        </Grid.Resources>
-        <Label Text="Cart" Grid.Row="0" FontSize="Large" TextColor="{StaticResource Primary}" HorizontalOptions="Center" VerticalOptions="Center"/>
-        <StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="150">
-            <ScrollView>
-                <Grid ColumnDefinitions="0.9*,*,1.2*" RowDefinitions="*,*" Margin="5">
-                    <Label Text="{Binding ProductName}" Margin="5,0" Grid.ColumnSpan="3"/>
-                    <Image WidthRequest="100" Source="{Binding ProductImage}" Grid.ColumnSpan="2" Grid.Row="1"/>
+    <tool:EventToCommandBehavior Command="{Binding AppearingCommand}" EventName="Appearing"/>
+</ContentPage.Behaviors>
+<Shell.BackButtonBehavior>
+    <BackButtonBehavior Command="{Binding GoToHomeCommand}"/>
+</Shell.BackButtonBehavior>
+<Grid RowDefinitions="0.25*,*,*,*">
+    <Grid.Resources>
+        <Style TargetType="Button">
+            <Setter Property="BorderColor" Value="Black"/>
+            <Setter Property="BorderWidth" Value="2"/>
+            <Setter Property="HeightRequest" Value="60"/>
+            <Setter Property="WidthRequest" Value="120"/>
+        </Style>
+    </Grid.Resources>
+    <Label Text="Cart" Grid.Row="0" FontSize="Large" TextColor="{StaticResource Primary}" HorizontalOptions="Center" VerticalOptions="Center"/>
+    <StackLayout Grid.Row="1" BackgroundColor="Gray" HeightRequest="150">
+        <ScrollView>
+            <Grid ColumnDefinitions="0.9*,*,1.2*" RowDefinitions="*,*" Margin="5">
+                <Label Text="{Binding ProductName}" Margin="5,0" Grid.ColumnSpan="3"/>
+                <Image WidthRequest="100" Source="{Binding ProductImage}" Grid.ColumnSpan="2" Grid.Row="1"/>
 
-                    <StackLayout Grid.Column="2" Grid.Row="1">
-                        <Label Text="{Binding ProductPrice, StringFormat='{0} Ft'}" HorizontalOptions="Center"/>
-                        <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
-                            <Button Text="-" WidthRequest="35" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White" Command="{Binding MinusPieceCommand}"/>
-                            <Label Text="{Binding ProductNumber}" VerticalOptions="Center" HorizontalOptions="Center" Margin="5"/>
-                            <Button Text="+" WidthRequest="36" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White" Command="{Binding PlusPieceCommand}" />
+                <StackLayout Grid.Column="2" Grid.Row="1">
+                    <Label Text="{Binding ProductPrice, StringFormat='{0} Ft'}" HorizontalOptions="Center"/>
+                    <StackLayout Orientation="Horizontal" HorizontalOptions="Center">
+                        <Button Text="-" WidthRequest="35" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White" Command="{Binding MinusPieceCommand}"/>
+                        <Label Text="{Binding ProductNumber}" VerticalOptions="Center" HorizontalOptions="Center" Margin="5"/>
+                        <Button Text="+" WidthRequest="36" HeightRequest="40" CornerRadius="60" TextColor="Black" BackgroundColor="White" Command="{Binding PlusPieceCommand}" />
+                    </StackLayout>
+                </StackLayout>
+            </Grid>
+        </ScrollView>
+    </StackLayout>
+    <StackLayout Grid.Row="2">
+        <Border HeightRequest="280" BackgroundColor="White">
+            <Grid RowDefinitions="0.8*,3.5*" BackgroundColor="Gray">
+                <Grid.Resources>
+                    <Style TargetType="Label">
+                        <Setter Property="TextColor" Value="Black"/>
+                        <Setter Property="VerticalOptions" Value="Center"/>
+                        <Setter Property="HorizontalOptions" Value="Center"/>
+                    </Style>
+                    <Style TargetType="Entry">
+                        <Setter Property="TextColor" Value="White"/>
+                        <Setter Property="BackgroundColor" Value="Black"/>
+                    </Style>
+                    <Style TargetType="StackLayout">
+                        <Setter Property="VerticalOptions" Value="Center"/>
+                        <Setter Property="HorizontalOptions" Value="Center"/>
+                    </Style>
+                </Grid.Resources>
+                <Label Text="Rendelés összegzése" FontSize="Large"/>
+                <Line Stroke="black"/>
+                <StackLayout Grid.Row="1">
+                    <Grid RowDefinitions="*,*,1.25*" VerticalOptions="Center" HorizontalOptions="Start">
+                        <StackLayout Orientation="Horizontal" Margin="15">
+                            <Entry x:Name="name_ENT" Placeholder="Name" Text="{Binding UserName}" WidthRequest="100" Margin="5"/>
+                            <Entry x:Name="email_ENT" Placeholder="Email" Text="{Binding UserEmail}" WidthRequest="150" Margin="5"/>
                         </StackLayout>
-                    </StackLayout>
-                </Grid>
-            </ScrollView>
-        </StackLayout>
-        <StackLayout Grid.Row="2">
-            <Border HeightRequest="280" BackgroundColor="White">
-                <Grid RowDefinitions="0.8*,3.5*" BackgroundColor="Gray">
-                    <Grid.Resources>
-                        <Style TargetType="Label">
-                            <Setter Property="TextColor" Value="Black"/>
-                            <Setter Property="VerticalOptions" Value="Center"/>
-                            <Setter Property="HorizontalOptions" Value="Center"/>
-                        </Style>
-                        <Style TargetType="Entry">
-                            <Setter Property="TextColor" Value="White"/>
-                            <Setter Property="BackgroundColor" Value="Black"/>
-                        </Style>
-                        <Style TargetType="StackLayout">
-                            <Setter Property="VerticalOptions" Value="Center"/>
-                            <Setter Property="HorizontalOptions" Value="Center"/>
-                        </Style>
-                    </Grid.Resources>
-                    <Label Text="Rendelés összegzése" FontSize="Large"/>
-                    <Line Stroke="black"/>
-                    <StackLayout Grid.Row="1">
-                        <Grid RowDefinitions="*,*,1.25*" VerticalOptions="Center" HorizontalOptions="Start">
-                            <StackLayout Orientation="Horizontal" Margin="15">
-                                <Entry x:Name="name_ENT" Placeholder="Name" Text="{Binding UserName}" WidthRequest="100" Margin="5"/>
-                                <Entry x:Name="email_ENT" Placeholder="Email" Text="{Binding UserEmail}" WidthRequest="150" Margin="5"/>
-                            </StackLayout>
-                            <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
-                                <Picker x:Name="delivery_PCK" Title="delivery options" TitleColor="White" BackgroundColor="Black" WidthRequest="150" Margin="5" TextColor="White">
-                                    <Picker.Items>
-                                        <x:String>Packeta</x:String>
-                                        <x:String>Magyar Posta</x:String>
-                                    </Picker.Items>
-                                </Picker>
-                            </StackLayout>
-                            <StackLayout Grid.Row="2" Orientation="Horizontal">
-                                <Label Text="Végösszeg forintban: " WidthRequest="150" TextDecorations="Underline" Margin="0,0,5,0"/>
-                                <Entry Text="{Binding ProductPrice}" WidthRequest="120"/>
-                                <Label Text="Ft" FontAttributes="Bold"/>
-                            </StackLayout>
-                        </Grid>
-                    </StackLayout>
-                </Grid>
-            </Border>
-        </StackLayout>
-        <Button Grid.Row="3" Margin="0,5" Text="Rendelés" TextColor="Black" BackgroundColor="White" Command="{Binding SetOrderCommand}"/>
-    </Grid>
+                        <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="0,0,0,10">
+                            <Picker ItemsSource="{Binding Deliverys}" ItemDisplayBinding="{Binding DeliveryName}" x:Name="delivery_PCK" Title="delivery options" TitleColor="White" BackgroundColor="Black" WidthRequest="150" Margin="5" TextColor="White"/>
+                        </StackLayout>
+                        <StackLayout Grid.Row="2" Orientation="Horizontal">
+                            <Label Text="Végösszeg forintban: " WidthRequest="150" TextDecorations="Underline" Margin="0,0,5,0"/>
+                            <Entry Text="{Binding ProductPrice}" WidthRequest="120"/>
+                            <Label Text="Ft" FontAttributes="Bold"/>
+                        </StackLayout>
+                    </Grid>
+                </StackLayout>
+            </Grid>
+        </Border>
+    </StackLayout>
+    <Button Grid.Row="3" Margin="0,5" Text="Rendelés" TextColor="Black" BackgroundColor="White" Command="{Binding SetOrderCommand}"/>
+</Grid>
 </ContentPage>
