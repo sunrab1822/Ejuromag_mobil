@@ -69,26 +69,28 @@ namespace Ejuromag.ViewModel
         }
 
         partial void OnProductCategoryChanged(Category value)
-        {
-            Categories = ApiFunctions.GetCategories().ToList();
-            Products = ApiFunctions.GetProducts().ToList();
-            if (ProductCategory != null)
-            {
-                CategoryID = value.id;
-                Products = Products.Where(x => x.category_id == ProductCategory.id).ToList();
-            }
-        }
+{
+    Categories = ApiFunctions.GetCategories().ToList();
+    Products = ApiFunctions.GetProducts().ToList();
+    if (ProductCategory != null)
+    {
+        CategoryID = value.id;
+        Products = Products.Where(x => x.category_id == ProductCategory.id).ToList();
+        ManufactID = 0;
+    }
+}
 
-        partial void OnProductManufacturerChanged(Manufacturer value)
-        {
-            Manufacturers = ApiFunctions.GetManufacturers().ToList();
-            Products = ApiFunctions.GetProducts().ToList();
-            if (ProductManufacturer != null)
-            {
-                ManufactID = value.id;
-                Products = Products.Where(x => x.manufacturer_id == ProductManufacturer.id).ToList();
-            }
-        }
+partial void OnProductManufacturerChanged(Manufacturer value)
+{
+    Manufacturers = ApiFunctions.GetManufacturers().ToList();
+    Products = ApiFunctions.GetProducts().ToList();
+    if (ProductManufacturer != null)
+    {
+        ManufactID = value.id;
+        Products = Products.Where(x => x.manufacturer_id == ProductManufacturer.id).ToList();
+        CategoryID = 0;
+    }
+}
 
         partial void OnCategoryIDChanged(int value)
         {
