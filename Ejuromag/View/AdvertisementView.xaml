@@ -6,14 +6,14 @@
              Title="AdvertisementView"
              BackgroundColor="#026691">
     <ScrollView>
-        <VerticalStackLayout>
-            <Label Text="Euronics" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
-            <toolkit:MediaElement x:Name="one_ME" WidthRequest="400" HeightRequest="300" Source="embed://addone.mp4" Margin="5"/>
-            <Label Text="Emag" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
-            <toolkit:MediaElement x:Name="two_ME" WidthRequest="400" HeightRequest="300" Source="embed://addtwo.mp4" Margin="5"/>
-            <Label Text="Media markt" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
-            <toolkit:MediaElement x:Name="three_ME" WidthRequest="400" HeightRequest="300" Source="embed://addthree.mp4" Margin="5"/>
-        </VerticalStackLayout>
-    </ScrollView>
+    <VerticalStackLayout>
+        <Label Text="Xiaomi Redmi Pad SE" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+        <toolkit:MediaElement x:Name="one_ME" WidthRequest="400" HeightRequest="300" Source="embed://RedmiPadteszt.mp4" Margin="5"/>
+        <Label Text="Samsung Galaxy A54" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+        <toolkit:MediaElement x:Name="two_ME" WidthRequest="400" HeightRequest="300" Source="embed://SamsungGalaxyA54.mp4" Margin="5"/>
+        <Label Text="Acer Aspire 3" TextColor="White" FontSize="Large"  FontAttributes="Bold" HorizontalTextAlignment="Center" VerticalTextAlignment="Center" Margin="0,20,0,0" TextDecorations="Underline"/>
+        <toolkit:MediaElement x:Name="three_ME" WidthRequest="400" HeightRequest="300" Source="embed://AcerAspire3.mp4" Margin="5"/>
+    </VerticalStackLayout>
+</ScrollView>
     
 </ContentPage>
