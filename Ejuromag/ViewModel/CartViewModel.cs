@@ -10,6 +10,18 @@ namespace Ejuromag.ViewModel
 {
     public partial class CartViewModel : ObservableObject
     {
+        public ObservableCollection<Delivery> Deliverys { get; set; }
+
+        public CartViewModel()
+        {
+            Deliverys = new ObservableCollection<Delivery>()
+            {
+                new Delivery() {DeliveryId = 1, DeliveryName = "None"},
+                new Delivery() {DeliveryId = 2, DeliveryName = "Packeta"},
+                new Delivery() {DeliveryId = 3, DeliveryName = "MPL"}
+            };
+        }
+    
         [ObservableProperty]
         string users;
 
